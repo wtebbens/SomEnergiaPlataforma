@@ -409,10 +409,16 @@ $spanish = array(
 	'profile:editdefault:success' => 'Elemento agregado al perfil por defecto correctamente',
 	'profile:editdefault:fail' => 'No se pudo guardar el perfil por defecto',
 
+	
+	
+	
 /**
  * Feeds
  */
 	'feed:rss' => 'Canal RSS para esta p&aacute;gina',
+	
+	
+	
 	
 /**
  * Links
@@ -420,6 +426,9 @@ $spanish = array(
 	'link:view' => 'Ver enlace',
 	'link:view:all' => 'Ver todos',
 
+	
+	
+	
 /**
  * River
  */
@@ -439,6 +448,9 @@ $spanish = array(
 	'river:widgets:friends' => 'Actividad de amigos',
 	'river:widgets:all' => 'Toda la actividad del sitio',
 
+	
+	
+	
 /**
  * Notifications
  */
@@ -450,6 +462,10 @@ $spanish = array(
 
 	'user.notification.get' => 'Retornar la configuraci&oacute;n de notificaciones para un usuario dado',
 	'user.notification.set' => 'Establecer la configuraci&oacute;n de notificaciones para un usuario dado',
+
+
+
+
 /**
  * Search
  */
@@ -476,6 +492,9 @@ $spanish = array(
 	'search:go' => 'Ir',
 	'userpicker:only_friends' => 'S&oacute;lo amigos',
 
+	
+	
+	
 /**
  * Account
  */
@@ -536,6 +555,9 @@ $spanish = array(
 
 	'walled_garden:welcome' => 'Bienvenido a',
 
+	
+	
+	
 /**
  * Administration
  */
@@ -641,6 +663,8 @@ $spanish = array(
 	'admin:options' => 'Opciones de Admin',
 
 
+	
+	
 /**
  * Plugins
  */
@@ -744,6 +768,9 @@ $spanish = array(
 	'admin:default_widgets:instructions' => 'Agregar, quitar, mover y configurar los widgets por defecto en la p&aacute;gina de widget seleccionada'
 		. ' Estos cambios s&oacute;lo tendr&aacute;n impacto en los nuevos usuarios',
 
+		
+		
+		
 /**
  * User settings
  */
@@ -770,6 +797,9 @@ $spanish = array(
 	'usersettings:statistics:label:membersince' => "Membro desde",
 	'usersettings:statistics:label:lastlogin' => "&uacute;ltimo acceso",
 
+	
+	
+	
 /**
  * Activity river
  */
@@ -786,6 +816,9 @@ $spanish = array(
 	'friends:tiny' => "peque&ntilde;o",
 	'friends:small' => "chico",
 
+	
+	
+	
 /**
  * Generic action words
  */
@@ -858,11 +891,17 @@ $spanish = array(
 
 	'link:text' => 'ver link',
 	
+	
+	
+	
 /**
  * Generic questions
  */
 	'question:areyousure' => 'Est&aacute; seguro?',
 
+	
+	
+	
 /**
  * Generic data words
  */
@@ -882,6 +921,9 @@ $spanish = array(
 	'tagcloud' => "Nube de tags",
 	'tagcloud:allsitetags' => "Tags de todo el sitio",
 
+	
+	
+	
 /**
  * Entity actions
  */
@@ -889,12 +931,18 @@ $spanish = array(
 	'delete:this' => 'Eliminar',
 	'comment:this' => 'Comentar',
 
+	
+	
+	
 /**
  * Input / output strings
  */
 	'deleteconfirm' => "Est&aacute; seguro de eliminar este item?",
 	'fileexists' => "El archivo ya se ha subido. Para reemplazarlo, seleccione:",
 
+	
+	
+	
 /**
  * User add
  */
@@ -914,18 +962,26 @@ Password: %s
 Una vez autenticado, le recomendamos que modifique su contrase&ntilde;a.
 ',
 
+
+
+
 /**
  * System messages
  **/
 	'systemmessages:dismiss' => "click para cerrar",
 
 
+	
+	
 /**
  * Import / export
  */
 	'importsuccess' => "Importaci&oacute;n exitosa",
 	'importfail' => "Error al importar datos de OpenDD",
 
+	
+	
+	
 /**
  * Time
  */
@@ -951,6 +1007,9 @@ Una vez autenticado, le recomendamos que modifique su contrase&ntilde;a.
 	'date:month:11' => 'Noviembre %s',
 	'date:month:12' => 'Diciembre %s',
 
+	
+	
+	
 /**
  * System settings
  */
@@ -1012,12 +1071,18 @@ Una vez autenticado, le recomendamos que modifique su contrase&ntilde;a.
 
 	'deprecated:function' => '%s() ha quedado obsoleta por %s()',
 
+	
+	
+	
 /**
  * Welcome
  */
 	'welcome' => "Bienvenido",
 	'welcome:user' => 'Bienvenido %s',
 
+	
+	
+	
 /**
  * Emails
  */
@@ -1027,8 +1092,8 @@ Una vez autenticado, le recomendamos que modifique su contrase&ntilde;a.
 	'email:save:success' => "Nueva direcci&oacute;n de Email guardada, se solicit&oacute; la verificaci&oacute;n",
 	'email:save:fail' => "No se pudo guardar la nueva direcci&oacute;n de Email",
 
-	'friend:newfriend:subject' => "%s te ha puesto como amigo suyo!",
-	'friend:newfriend:body' => "%s te ha puesto como amigo suyo!
+	'friend:newfriend:subject' => "%s te ha puesto como contacto suyo!",
+	'friend:newfriend:body' => "%s te ha puesto como contacto suyo!
 
 Para visualizar su perfil haz click aqu&iacute;:
 
@@ -1054,6 +1119,9 @@ Si fuiste tu quien realiz&oacute; la solicitud haz click en el link debajo, de o
 %s
 ",
 
+
+
+
 /**
  * user default access
  */
@@ -1062,11 +1130,17 @@ Si fuiste tu quien realiz&oacute; la solicitud haz click en el link debajo, de o
 'user:default_access:success' => "El nivel de acceso por defecto ha sido guardado",
 'user:default_access:failure' => "El nivel de acceso por defecto no ha podido ser guardado",
 
+
+
+
 /**
  * XML-RPC
  */
 	'xmlrpc:noinputdata'	=>	"Ingresos de datos faltantes",
 
+	
+	
+	
 /**
  * Comments
  */
@@ -1103,6 +1177,9 @@ Para ver el prfil de %s, haga click aqu&iacute;:
 
 Por favor no responda a este correo",
 
+
+
+
 /**
  * Entities
  */
@@ -1113,6 +1190,9 @@ Por favor no responda a este correo",
 	'entity:delete:success' => 'La entidad %s ha sido eliminada',
 	'entity:delete:fail' => 'La entidad %s no pudo ser eliminada',
 
+	
+	
+	
 /**
  * Action gatekeeper
  */
@@ -1121,23 +1201,35 @@ Por favor no responda a este correo",
 	'actiongatekeeper:timeerror' => 'La p&aacute;gina que se encontraba utilizando ha expirado. Por favor refresque la p&aacute;gina e intente nuevamente',
 	'actiongatekeeper:pluginprevents' => 'Una extensi&oacute;n de este formulario ha evitado que se env&iacute;e el formulario',
 
+	
+	
+	
 /**
  * Word blacklists
  */
 	'word:blacklist' => 'and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever',
 
+	
+	
+	
 /**
  * Tag labels
  */
 	'tag_names:tags' => 'Tags',
 	'tags:site_cloud' => 'Nube de Tags del Sitio',
 
+	
+	
+	
 /**
  * Javascript
  */
 	'js:security:token_refresh_failed' => 'No se pudo contactar a %s. Puede experimentar problemas al guardar contenidos en el sitio',
 	'js:security:token_refreshed' => 'La conexi&oacute;n a %s ha sido restaurada!',
 
+	
+	
+	
 /**
  * Languages according to ISO 639-1
  */

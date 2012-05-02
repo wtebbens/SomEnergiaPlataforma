@@ -410,10 +410,16 @@ $english = array(
 	'profile:editdefault:fail' => 'Default profile could not be saved',
 
 
+	
+	
 /**
  * Feeds
  */
 	'feed:rss' => 'RSS feed for this page',
+
+
+
+
 /**
  * Links
  */
@@ -421,6 +427,8 @@ $english = array(
 	'link:view:all' => 'View all',
 
 
+	
+	
 /**
  * River
  */
@@ -440,6 +448,9 @@ $english = array(
 	'river:widgets:friends' => 'Friends activity',
 	'river:widgets:all' => 'All site activity',
 
+	
+	
+	
 /**
  * Notifications
  */
@@ -451,10 +462,13 @@ $english = array(
 
 	'user.notification.get' => 'Return the notification settings for a given user.',
 	'user.notification.set' => 'Set the notification settings for a given user.',
+
+
+
+
 /**
  * Search
  */
-
 	'search' => "Search",
 	'searchtitle' => "Search: %s",
 	'users:searchtitle' => "Searching for users: %s",
@@ -478,10 +492,12 @@ $english = array(
 	'search:go' => 'Go',
 	'userpicker:only_friends' => 'Only friends',
 
+	
+	
+	
 /**
  * Account
  */
-
 	'account' => "Account",
 	'settings' => "Settings",
 	'tools' => "Tools",
@@ -539,6 +555,9 @@ $english = array(
 
 	'walled_garden:welcome' => 'Welcome to',
 
+	
+	
+	
 /**
  * Administration
  */
@@ -644,6 +663,8 @@ $english = array(
 	'admin:options' => 'Admin options',
 
 
+	
+	
 /**
  * Plugins
  */
@@ -747,6 +768,9 @@ $english = array(
 	'admin:default_widgets:instructions' => 'Add, remove, position, and configure default widgets for the selected widget page.'
 		. '  These changes will only affect new users on the site.',
 
+		
+		
+		
 /**
  * User settings
  */
@@ -773,6 +797,9 @@ $english = array(
 	'usersettings:statistics:label:membersince' => "Member since",
 	'usersettings:statistics:label:lastlogin' => "Last logged in",
 
+	
+	
+	
 /**
  * Activity river
  */
@@ -789,10 +816,12 @@ $english = array(
 	'friends:tiny' => "tiny",
 	'friends:small' => "small",
 
+	
+	
+	
 /**
  * Generic action words
  */
-
 	'save' => "Save",
 	'reset' => 'Reset',
 	'publish' => "Publish",
@@ -861,13 +890,18 @@ $english = array(
 	'content:latest:blurb' => 'Alternatively, click here to view the latest content from across the site.',
 
 	'link:text' => 'view link',
+
+
+
+
 /**
  * Generic questions
  */
-
 	'question:areyousure' => 'Are you sure?',
 
-/**
+	
+	
+	
  * Generic data words
  */
 
@@ -887,6 +921,9 @@ $english = array(
 	'tagcloud' => "Tag cloud",
 	'tagcloud:allsitetags' => "All site tags",
 
+	
+	
+	
 /**
  * Entity actions
  */
@@ -894,17 +931,21 @@ $english = array(
 	'delete:this' => 'Delete this',
 	'comment:this' => 'Comment on this',
 
+	
+	
+	
 /**
  * Input / output strings
  */
-
 	'deleteconfirm' => "Are you sure you want to delete this item?",
 	'fileexists' => "A file has already been uploaded. To replace it, select it below:",
 
+	
+	
+	
 /**
  * User add
  */
-
 	'useradd:subject' => 'User account created',
 	'useradd:body' => '
 %s,
@@ -921,23 +962,29 @@ Password: %s
 Once you have logged in, we highly recommend that you change your password.
 ',
 
+
+
+
 /**
  * System messages
  **/
-
 	'systemmessages:dismiss' => "click to dismiss",
 
 
+	
+	
 /**
  * Import / export
  */
 	'importsuccess' => "Import of data was successful",
 	'importfail' => "OpenDD import of data failed.",
 
+	
+	
+	
 /**
  * Time
  */
-
 	'friendlytime:justnow' => "just now",
 	'friendlytime:minutes' => "%s minutes ago",
 	'friendlytime:minutes:singular' => "a minute ago",
@@ -961,10 +1008,11 @@ Once you have logged in, we highly recommend that you change your password.
 	'date:month:12' => 'December %s',
 
 
+	
+	
 /**
  * System settings
  */
-
 	'installation:sitename' => "The name of your site:",
 	'installation:sitedescription' => "Short description of your site (optional):",
 	'installation:wwwroot' => "The site URL:",
@@ -1023,13 +1071,18 @@ Once you have logged in, we highly recommend that you change your password.
 
 	'deprecated:function' => '%s() was deprecated by %s()',
 
+	
+	
+	
 /**
  * Welcome
  */
-
 	'welcome' => "Welcome",
 	'welcome:user' => 'Welcome %s',
 
+	
+	
+	
 /**
  * Emails
  */
@@ -1066,24 +1119,31 @@ If you requested this click on the link below, otherwise ignore this email.
 %s
 ",
 
+
+
+
 /**
  * user default access
  */
-
 'default_access:settings' => "Your default access level",
 'default_access:label' => "Default access",
 'user:default_access:success' => "Your new default access level was saved.",
 'user:default_access:failure' => "Your new default access level could not be saved.",
+
+
+
 
 /**
  * XML-RPC
  */
 	'xmlrpc:noinputdata'	=>	"Input data missing",
 
+	
+	
+	
 /**
  * Comments
  */
-
 	'comments:count' => "%s comments",
 
 	'riveraction:annotation:generic_comment' => '%s commented on %s',
@@ -1117,6 +1177,9 @@ To view %s's profile, click here:
 
 You cannot reply to this email.",
 
+
+
+
 /**
  * Entities
  */
@@ -1127,6 +1190,8 @@ You cannot reply to this email.",
 	'entity:delete:success' => 'Entity %s has been deleted',
 	'entity:delete:fail' => 'Entity %s could not be deleted',
 
+	
+	
 
 /**
  * Action gatekeeper
@@ -1136,26 +1201,35 @@ You cannot reply to this email.",
 	'actiongatekeeper:timeerror' => 'The page you were using has expired. Please refresh and try again.',
 	'actiongatekeeper:pluginprevents' => 'A extension has prevented this form from being submitted.',
 
+	
+	
 
 /**
  * Word blacklists
  */
 	'word:blacklist' => 'and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever',
 
+	
+	
+	
 /**
  * Tag labels
  */
-
 	'tag_names:tags' => 'Tags',
 	'tags:site_cloud' => 'Site Tag Cloud',
 
+	
+	
+	
 /**
  * Javascript
  */
-
 	'js:security:token_refresh_failed' => 'Cannot contact %s. You may experience problems saving content.',
 	'js:security:token_refreshed' => 'Connection to %s restored!',
 
+	
+	
+	
 /**
  * Languages according to ISO 639-1
  */
