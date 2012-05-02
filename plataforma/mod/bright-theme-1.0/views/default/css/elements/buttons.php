@@ -142,7 +142,7 @@
 }
 
 .elgg-button-dropdown.elgg-state-active {
-	background: #ccc url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/button-active.png) repeat-x left bottom;
+	background: #ccc url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/button-active.png) repeat-x left bottom;
   -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomright: 0;
