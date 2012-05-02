@@ -10,13 +10,14 @@ $english = array(
 /**
  * Sites
  */
-
 	'item:site' => 'Sites',
 
+		
+		
+		
 /**
  * Sessions
  */
-
 	'login' => "Log in",
 	'loginok' => "You have been logged in.",
 	'loginerror' => "We couldn't log you in. Please check your credentials and try again.",
@@ -33,6 +34,8 @@ $english = array(
 	'membershiprequired' => "You must be a member of this group to view that page.",
 
 
+		
+		
 /**
  * Errors
  */
@@ -235,16 +238,22 @@ $english = array(
 	'pageownerunavailable' => 'Warning: The page owner %d is not accessible!',
 	'viewfailure' => 'There was an internal failure in the view %s',
 	'changebookmark' => 'Please change your bookmark for this page',
+
+	
+	
+	
 /**
  * API
  */
 	'system.api.list' => "List all available API calls on the system.",
 	'auth.gettoken' => "This API call lets a user obtain a user authentication token which can be used for authenticating future API calls. Pass it as the parameter auth_token",
 
+	
+	
+	
 /**
  * User details
  */
-
 	'name' => "Display name",
 	'email' => "Email address",
 	'username' => "Username",
@@ -253,20 +262,24 @@ $english = array(
 	'passwordagain' => "Password (again for verification)",
 	'admin_option' => "Make this user an admin?",
 
+	
+	
+	
 /**
  * Access
  */
-
 	'PRIVATE' => "Private",
 	'LOGGED_IN' => "Logged in users",
 	'PUBLIC' => "Public",
 	'access:friends:label' => "Friends",
 	'access' => "Access",
 
+	
+	
+	
 /**
  * Dashboard and widgets
  */
-
 	'dashboard' => "Dashboard",
 	'dashboard:nowidgets' => "Your dashboard lets you track the activity and content on this site that matters to you.",
 
@@ -289,24 +302,30 @@ $english = array(
 	'widgets:move:failure' => "We could not store the new widget position.",
 	'widgets:remove:failure' => "Unable to remove this widget",
 
+	
+	
+	
 /**
  * Groups
  */
-
 	'group' => "Group",
 	'item:group' => "Groups",
 
+	
+	
+	
 /**
  * Users
  */
-
 	'user' => "User",
 	'item:user' => "Users",
 
+	
+	
+	
 /**
  * Friends
  */
-
 	'friends' => "Friends",
 	'friends:yours' => "Your friends",
 	'friends:owned' => "%s's friends",

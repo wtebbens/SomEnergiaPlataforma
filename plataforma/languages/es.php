@@ -12,6 +12,9 @@ $spanish = array(
  */
 	'item:site' => 'Sitios',
 
+		
+		
+		
 /**
  * Sessions
  */
@@ -31,6 +34,8 @@ $spanish = array(
 	'membershiprequired' => "Debe ser miembro del grupo para poder visualizar esta p&aacute;gina",
 
 
+	
+	
 /**
  * Errors
  */
@@ -233,12 +238,19 @@ $spanish = array(
 	'pageownerunavailable' => 'Precauci&oacute;n: El administrador de p&aacute;gina %d no se encuentra accesible!',
 	'viewfailure' => 'Ocurri&oacute; un error interno en la vista %s',
 	'changebookmark' => 'Por favor modifique su &iacute;ndice para esta vista',
+
+	
+	
+	
 /**
  * API
  */
 	'system.api.list' => "Lista todas las llamadas API disponibles en el sistema",
 	'auth.gettoken' => "Esta llamada API le permite al usuario obtener un token de autenticaci&oacute;n el cual puede ser utilizado para autenticar futuras llamadas a la API. Enviarlo como par&aacute;metro auth_token",
 
+	
+	
+	
 /**
  * User details
  */
@@ -250,6 +262,9 @@ $spanish = array(
 	'passwordagain' => "Contrase&ntilde;a (nuevamente, para verificaci&oacute;n)",
 	'admin_option' => "Hacer administrador a este usuario?",
 
+	
+	
+	
 /**
  * Access
  */
@@ -259,6 +274,9 @@ $spanish = array(
 	'access:friends:label' => "Amigos",
 	'access' => "Acceso",
 
+	
+	
+	
 /**
  * Dashboard and widgets
  */
@@ -284,50 +302,59 @@ $spanish = array(
 	'widgets:move:failure' => "No se pudo guardar la nueva posici&oacute;n del widget",
 	'widgets:remove:failure' => "No se pudo quitar el widget",
 
+	
+	
+	
 /**
  * Groups
  */
 	'group' => "Grupo",
 	'item:group' => "Grupos",
 
+	
+	
+	
 /**
  * Users
  */
 	'user' => "Usuario",
 	'item:user' => "Usuarios",
 
+	
+	
+	
 /**
  * Friends
  */
-	'friends' => "Amigos",
-	'friends:yours' => "Tus Amigos",
-	'friends:owned' => "Amigos de %s",
-	'friend:add' => "Nuevo amigo",
-	'friend:remove' => "Quitar amigo",
+	'friends' => "Contactos",
+	'friends:yours' => "Tus contactos",
+	'friends:owned' => "Contacto de %s",
+	'friend:add' => "Nuevo contacto",
+	'friend:remove' => "Quitar contacto",
 
-	'friends:add:successful' => "Se ha a&ntilde;adido a %s como amigo",
-	'friends:add:failure' => "No se pudo a&ntilde;adir a %s como amigo. Por favor intente nuevamente",
+	'friends:add:successful' => "Se ha a&ntilde;adido a %s como contacto",
+	'friends:add:failure' => "No se pudo a&ntilde;adir a %s como contacto. Por favor intente nuevamente",
 
-	'friends:remove:successful' => "Se quit&oacute; a %s de sus amigos",
-	'friends:remove:failure' => "No se pudo quitar a %s de sus amigos. Por favor intente nuevamente",
+	'friends:remove:successful' => "Se quit&oacute; a %s de sus contactos",
+	'friends:remove:failure' => "No se pudo quitar a %s de sus contactos. Por favor intente nuevamente",
 
-	'friends:none' => "Este usuario no tiene amigos a&uacute;n",
-	'friends:none:you' => "No tienes amigos a&uacute;n",
+	'friends:none' => "Este usuario no tiene contactos a&uacute;n",
+	'friends:none:you' => "No tienes contactos a&uacute;n",
 
-	'friends:none:found' => "No se encontraron amigos",
+	'friends:none:found' => "No se encontraron contactos",
 
-	'friends:of:none' => "Nadie ha agragado a este usuario como amigo a&uacute;n",
-	'friends:of:none:you' => "Nadie te ha agragado como amigo a&uacute;n. Comienza a a&ntilde;adir contenido y completar tu perfil para que la gente te encuentre!",
+	'friends:of:none' => "Nadie ha agragado a este usuario como contacto a&uacute;n",
+	'friends:of:none:you' => "Nadie te ha agragado como contacto a&uacute;n. Comienza a a&ntilde;adir contenido y completar tu perfil para que la gente te encuentre!",
 
 	'friends:of:owned' => "Amigos de %s",
 
-	'friends:of' => "Amigos de",
-	'friends:collections' => "Colecciones de amigos",
+	'friends:of' => "Contactos de",
+	'friends:collections' => "Colecciones de contactos",
 	'collections:add' => "Nueva colecci&oacute;n",
-	'friends:collections:add' => "Nueva colecci&oacute;n de amigos",
-	'friends:addfriends' => "Seleccionar amigos",
+	'friends:collections:add' => "Nueva colecci&oacute;n de contactos",
+	'friends:addfriends' => "Seleccionar contactos",
 	'friends:collectionname' => "Nombre de la colecci&oacute;n",
-	'friends:collectionfriends' => "Amigos en la colecci&oacute;n",
+	'friends:collectionfriends' => "Contactos en la colecci&oacute;n",
 	'friends:collectionedit' => "Editar esta colecci&oacute;n",
 	'friends:nocollections' => "No tienes colecciones a&uacute;n",
 	'friends:collectiondeleted' => "La colecci&oacute;n ha sido eliminada",
