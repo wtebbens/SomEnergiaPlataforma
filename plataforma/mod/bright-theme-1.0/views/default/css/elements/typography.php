@@ -77,7 +77,7 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	color: #28f;
+	color: #87A300;
   line-height: 1.1em;
   padding-bottom: 5px;
 }

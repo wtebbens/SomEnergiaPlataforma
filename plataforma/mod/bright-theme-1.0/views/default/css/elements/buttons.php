@@ -35,7 +35,7 @@
   color: #222;
 	text-shadow: 0px 1px 1px #fff;
   border: 1px solid #888;
-	background: #fff url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/button.png) repeat-x left top;
+	background: #fff url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/button.png) repeat-x left top;
 }
 
 .elgg-button:hover {
@@ -71,13 +71,13 @@
 	color: #fff;
 	text-shadow: 0px 1px 1px #000;
 	text-decoration: none;
-  border-color: #048;
-	background-color: #28f;
+  border-color: #657A00;
+	background-color: #87A300;
 }
 
 .elgg-button-submit:hover {
-  border-color: #026;
-	background-color: #06d;
+  border-color: #4C5C00;
+	background-color: #657A00;
 }
 
 
