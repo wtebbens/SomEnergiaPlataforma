@@ -936,7 +936,7 @@ Una vez autenticado, le recomendamos que modifique su contrase&ntilde;a.
 	'installation:sitepermissions' => "Permisos de acceso por defecto:",
 	'installation:language' => "Lenguaje por defecto para el sitio:",
 	'installation:debug' => "El modo Debug provee informaci&oacute;n extra que puede utilizarse para evaluar eventualidades. Puede enlentecer el funcionamiento del sistema y debe utilizarse s&oacute;lo cuando se detectan problemas:",
-	'installation:debug:none' => 'Desactivar modo Debug (reomendado)',
+	'installation:debug:none' => 'Desactivar modo Debug (recomendado)',
 	'installation:debug:error' => 'Mostrar s&oacute;lo errores cr&iacute;ticos',
 	'installation:debug:warning' => 'Mostrar s&oacute;lo alertas cr&iacute;ticas',
 	'installation:debug:notice' => 'Mostrar todos los errores, alertas e informaciones de eventos',
