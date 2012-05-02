@@ -68,7 +68,7 @@
 /***** PAGE HEADER ******/
 .elgg-page-header {
 	position: relative;
-	background: #05d url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/header.png) repeat-x top left;
+	background: #B4D900;
 }
 .elgg-page-header > .elgg-inner {
 	position: relative;
