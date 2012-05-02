@@ -1,32 +1,86 @@
 <?php
-
-// Generat per la traducció del navegador 
+/**
+ * Core Spanish Language
+ *
+ * @package Elgg.Core
+ * @subpackage Languages.Spanish
+ */
 
 $catalan = array( 
-	 'item:site'  =>  "Llocs" , 
-	 'login'  =>  "Entrar" , 
-	 'loginok'  =>  "Estàs registrat/da" , 
-	 'loginerror'  =>  "Accés denegat. Podria ser perquè encara no has validat el teu compte, que els detalls que has proporcionat són incorrectes o que s'hagin realitzat massa intents d'accés incorrectes.
-Comprova que els detalls són correctes i prova de nou." , 
-	 'logout'  =>  "Sortir" , 
-	 'logoutok'  =>  "Has sortit." , 
-	 'logouterror'  =>  "No podem treure't de la xarxa. Prova de nou." , 
-	 'exception:title'  =>  "Benvinguda i/o benvingut a Elgg." , 
-	 'InstallationException:CantCreateSite'  =>  "No és possible crear un lloc per defecte Elgg amb les credencials Nom:%s, Url: %s" , 
-	 'actionundefined'  =>  "Aquesta acció (%s) no està definida en el sistema" , 
-	 'actionloggedout'  =>  "No pots realitzar aquesta acció fins que no t'hagis connectat." , 
+/**
+ * Sites
+ */
+	 'item:site'  =>  "Llocs" ,
+
+		
+		
+		
+/**
+ * Sessions
+ */
+	'login'  =>  "Entrar" , 
+	'loginok'  =>  "Estàs registrat/da" , 
+	'loginerror'  =>  "Accés denegat. Podria ser perquè encara no has validat el teu compte, que els detalls que has proporcionat són incorrectes o que s'hagin realitzat massa intents d'accés incorrectes.", 
+  'login:empty' => "El nombre de usuario y contrase&ntilde;a son requeridos",
+	'login:baduser' => "No se pudo cargar su cuenta de usuario",
+	'auth:nopams' => "Error interno. No se encuentra un m&eacute;todo de autenticaci&oacute;n instalado",
+	
+	'logout'  =>  "Sortir" ,
+	'logoutok'  =>  "Has sortit." , 
+	'logouterror'  =>  "No podem treure't de la xarxa. Prova de nou.",
+
+	'loggedinrequired' => "Debe estar autenticado para poder visualizar esta p&aacute;gina",
+	'adminrequired' => "Debe ser un administrador para poder visualizar esta p&aacute;gina",
+	'membershiprequired' => "Debe ser miembro del grupo para poder visualizar esta p&aacute;gina",
+
+	
+	
+	
+/**
+ * Errors
+ */
+	'exception:title'  =>  "Error Fatal.",
+	
+	'actionundefined'  =>  "Aquesta acció (%s) no està definida en el sistema" ,
+	'actionnotfound' => "El log de acciones para %s no se ha encontrado",
+	'actionloggedout'  =>  "No pots realitzar aquesta acció fins que no t'hagis connectat.",
+	'actionunauthorized' => 'Usted no posee los permisos necesarios para realizar esta acci&oacute;n',
+
+	'InstallationException:SiteNotInstalled' => 'No se pudo procesar la solicitud. El sitio '
+	. ' no se encuentra configurado o la base de datos se encuentra ca&iacute;da',
+	'InstallationException:MissingLibrary' => 'No se pudo cargar %s',
+	'InstallationException:CannotLoadSettings' => 'No se pudo cargar el archivo de configuracion, puede que no exista o que se deba a un error de configuraci&oacute;n de permisos',
+
+	'SecurityException:Codeblock'  =>  "Accés denegat per executar el bloc de còdi amb privilegis." ,
+	'DatabaseException:WrongCredentials'  =>  "Elgg no pot connectar-se a la base de dades utilitzant les credencials proporcionades." ,
+	'DatabaseException:NoConnect'  =>  "Elgg no pot seleccionar la base de dades '%s'. Comprova l'existència d'aquesta base de dades i si hi tens accés." ,
+	'SecurityException:FunctionDenied'  =>  "Accés denegat a la funció amb prvilegis 's%'." ,
+	'DatabaseException:DBSetupIssues'  =>  "Existeixen tot un seguit de problemes:" ,
+	'DatabaseException:ScriptNotFound'  =>  "Elgg no troba el script de la base de dades que demanes en %s." ,
+	'DatabaseException:InvalidQuery' => "Consulta inv&aacute;lida",
+	
+	'IOException:FailedToLoadGUID'  =>  "Error en carregar de nou %s des de GUID:%d" ,
+	'InvalidParameterException:NonElggObject'  =>  "Passat un no-ElggObject al constructor de ElggObjects!" ,
+	'InvalidParameterException:UnrecognisedValue'  =>  "Valor no vàlid pel constructor d'objectes." ,
+
+	'InvalidClassException:NotValidElggStar'  =>  "GUID:%d no és un %s vàlid" ,
+
+	'PluginException:MisconfiguredPlugin'  =>  "%s és un plugin mal configurat. Mira la wiki d'Elgg per veure possibles causes (http://docs.elgg.org/wiki/)" ,
+	'PluginException:CannotStart' => '%s (guid: %s) no puede iniciarse. Motivo: %s',
+	'PluginException:InvalidID' => "%s no es un ID de plugin v&aacute;lido",
+	'PluginException:InvalidPath' => "%s es un path de plugin inv&aacute;lido",
+	'PluginException:InvalidManifest' => 'Archivo de manifesto inv&aacute;lido para el plugin %s',
+	'PluginException:InvalidPlugin' => '%s no es un plugin v&aacute;lido',
+	'PluginException:InvalidPlugin:Details' => '%s no es un plugin v&aacute;lido: %s',
+	
+	
+	'InstallationException:CantCreateSite'  =>  "No és possible crear un lloc per defecte Elgg amb les credencials Nom:%s, Url: %s" , 
+	 
+	 
 	 'notfound'  =>  "No s'han trobat resultats" , 
-	 'SecurityException:Codeblock'  =>  "Accés denegat per executar el bloc de còdi amb privilegis." , 
-	 'DatabaseException:WrongCredentials'  =>  "Elgg no pot connectar-se a la base de dades utilitzant les credencials proporcionades." , 
-	 'DatabaseException:NoConnect'  =>  "Elgg no pot seleccionar la base de dades '%s'. Comprova l'existència d'aquesta base de dades i si hi tens accés." , 
-	 'SecurityException:FunctionDenied'  =>  "Accés denegat a la funció amb prvilegis 's%'." , 
-	 'DatabaseException:DBSetupIssues'  =>  "Existeixen tot un seguit de problemes:" , 
-	 'DatabaseException:ScriptNotFound'  =>  "Elgg no troba el script de la base de dades que demanes en %s." , 
-	 'IOException:FailedToLoadGUID'  =>  "Error en carregar de nou %s des de GUID:%d" , 
-	 'InvalidParameterException:NonElggObject'  =>  "Passat un no-ElggObject al constructor de ElggObjects!" , 
-	 'InvalidParameterException:UnrecognisedValue'  =>  "Valor no vàlid pel constructor d'objectes." , 
-	 'InvalidClassException:NotValidElggStar'  =>  "GUID:%d no és un %s vàlid" , 
-	 'PluginException:MisconfiguredPlugin'  =>  "%s és un plugin mal configurat. Mira la wiki d'Elgg per veure possibles causes (http://docs.elgg.org/wiki/)" , 
+	 
+	 
+	 
 	 'InvalidParameterException:NonElggUser'  =>  "Passant un no-ElggUser al constructor de ElggUsers!" , 
 	 'InvalidParameterException:NonElggSite'  =>  "Passant un no-ElggUser al constructor de EggSites!" , 
 	 'InvalidParameterException:NonElggGroup'  =>  "Passant un no-ElggUser al constructor de ElggGroups!" , 

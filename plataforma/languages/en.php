@@ -902,9 +902,9 @@ $english = array(
 	
 	
 	
+/**
  * Generic data words
  */
-
 	'title' => "Title",
 	'description' => "Description",
 	'tags' => "Tags",
