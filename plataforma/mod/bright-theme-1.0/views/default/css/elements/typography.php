@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #05d;
+  color: #4C5C00;
 }
 
 a:hover,

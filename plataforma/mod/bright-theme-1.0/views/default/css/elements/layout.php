@@ -37,7 +37,7 @@
 
 /***** TOPBAR ******/
 .elgg-page-topbar {
-	background: #444 url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/topbar.png) repeat-x bottom left;
+	background: #444 url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/topbar.png) repeat-x bottom left;
 	border-bottom: 1px solid #000;
 	position: relative;
 	z-index: 9000;
@@ -80,10 +80,10 @@
 	min-height: 360px;
 }
 .elgg-layout-one-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/sidebar.png) repeat-y right top;
+	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/sidebar.png) repeat-y right top;
 }
 .elgg-layout-two-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/sidebar-double.png) repeat-y right top;
+	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/sidebar-double.png) repeat-y right top;
 }
 .elgg-layout-error {
 	margin-top: 20px;
@@ -117,7 +117,7 @@
 	position: relative;
 }
 .elgg-page-footer {
-	background: #222 url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/footer.png) repeat-x left top;
+	background: #222 url(<?php echo elgg_get_site_url(); ?>mod/bright-theme-1.0/graphics/footer.png) repeat-x left top;
 	border-top: 1px solid #333;
   min-height: 100px;
 	color: #aaa;
