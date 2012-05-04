@@ -18,20 +18,20 @@ $catalan = array(
 /**
  * Sessions
  */
-	'login'  =>  "Entrar" , 
-	'loginok'  =>  "Estàs registrat/da" , 
-	'loginerror'  =>  "Accés denegat. Podria ser perquè encara no has validat el teu compte, que els detalls que has proporcionat són incorrectes o que s'hagin realitzat massa intents d'accés incorrectes.", 
-  'login:empty' => "El nombre de usuario y contrase&ntilde;a son requeridos",
-	'login:baduser' => "No se pudo cargar su cuenta de usuario",
-	'auth:nopams' => "Error interno. No se encuentra un m&eacute;todo de autenticaci&oacute;n instalado",
-	
-	'logout'  =>  "Sortir" ,
-	'logoutok'  =>  "Has sortit." , 
-	'logouterror'  =>  "No podem treure't de la xarxa. Prova de nou.",
-
-	'loggedinrequired' => "Debe estar autenticado para poder visualizar esta p&aacute;gina",
-	'adminrequired' => "Debe ser un administrador para poder visualizar esta p&aacute;gina",
-	'membershiprequired' => "Debe ser miembro del grupo para poder visualizar esta p&aacute;gina",
+		'login' => "Iniciar sessi&oacute;",
+		'loginok' => "Has iniciat sessi&oacute;",
+		'loginerror' => "Inici de sessi&oacute; incorrecte. Verifica les teves credencials i intenta-ho de nou",
+		'login:empty' => "El nom d'usuari i contrasenya s&oacute;n requerits",
+		'login:baduser' => "No s'ha pogut carregar el teu compte d'usuari",
+		'auth:nopams' => "Error intern. No es troba un m&egrave;tode d'autenticaci&oacute; instal·lat",
+		
+		'logout' => "Tancar sessi&oacute;",
+		'logoutok' => "S'ha tancat la sessi&oacute;",
+		'logouterror' => "No s'ha pogut tancar la sessi&oacute;, si us plau intenta-ho de nou",
+		
+		'loggedinrequired' => "Has d'estar autenticat per poder veure aquesta p&agrave;gina",
+		'adminrequired' => "Has de ser un administrador per poder veure aquesta p&agrave;gina",
+		'membershiprequired' => "Has de ser membre del grup per poder veure aquesta p&agrave;gina",
 
 	
 	
