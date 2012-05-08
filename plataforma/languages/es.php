@@ -1171,7 +1171,7 @@ Para responder o ver el item original, haga click aqu&iacute;:
 
 %s
 
-Para ver el prfil de %s, haga click aqu&iacute;:
+Para ver el prefil de %s, haga click aqu&iacute;:
 
 %s
 
