@@ -414,6 +414,372 @@ $catalan = array(
 	
 
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/**
+	* Administration
+	*/
+	'menu:page:header:administer' => "Administrar",
+	'menu:page:header:configure' => "Configurar",
+	'menu:page:header:develop' => "Desenvolupar",
+	'menu:page:header:default' => "Altres",
+	
+	'admin:view_site' => "Veure lloc web",
+	'admin:loggedin' => "Sessió iniciada com a %s",
+	'admin:menu' => "Menú",
+	
+	'admin:configuration:success' => "S'ha desat la vostra configuració",
+	'admin:configuration:fail' => "No s'ha pogut desar la vostra configuració",
+	
+	'admin:unknown_section' => "La secció d'administració no és vàlida",
+	
+	'admin' => "Administració",
+	'admin:description' => "El tauler d'administració us permet organitzar tots els aspectes del sistema, des de la gestió dels usuaris al comportament de les extensions. Per començar, seleccioneu una opció",
+	
+	'admin:statistics' => "Estadístiques",
+	'admin:statistics:overview' => "Resum",
+	
+	'admin:appearance' => "Aparença",
+	'admin:utilities' => "Utilitats",
+	
+	'admin:users' => "Usuaris",
+	'admin:users:online' => "Connectats",
+	'admin:users:newest' => "El més nou",
+	'admin:users:add' => "Afegir un usuari",
+	'admin:users:description' => "El tauler d'administració us permet gestionar la configuració d'usuaris de la xarxa. Per començar, seleccioneu una opció",
+	'admin:users:adduser:label' => "Premeu per afegir un nou usuari..",
+	'admin:users:opt:linktext' => "Configuració dels usuaris..",
+	'admin:users:opt:description' => "Configuració dels usuaris i informació dels comptes..",
+	'admin:users:find' => "Cercar",
+	
+	'admin:settings' => "Configuració",
+	'admin:settings:basic' => "Configuració Bàsica",
+	'admin:settings:advanced' => "Configuració Avançada",
+	'admin:site:description' => "El tauler d'administració us permet gestionar la configuració global de la xarxa. Per començar, seleccioneu una opció",
+	'admin:site:opt:linktext' => "Configurar el lloc web..",
+	'admin:site:access:warning' => "Les modificacions del control d'accés s'activaran en el proper accés",
+	
+	'admin:dashboard' => "Tauler de control",
+	'admin:widget:online_users' => "Usuaris connectats",
+	'admin:widget:online_users:help' => "Llista d'usuaris connectats a la xarxa",
+	'admin:widget:new_users' => "Nous usuaris",
+	'admin:widget:new_users:help' => "Fes una llista dels usuaris més nous",
+	'admin:widget:content_stats' => "Estadístiques del contingut",
+	'admin:widget:content_stats:help' => "Seguiment del contingut creat pels usuaris de la xarxa",
+	'widget:content_stats:type' => "Tipus de contingut",
+	'widget:content_stats:number' => "Número",
+	
+	'admin:widget:admin_welcome' => "Benvinguts",
+	'admin:widget:admin_welcome:help' => "Aquesta és l'àrea d'administració",
+	'admin:widget:admin_welcome:intro' =>
+"Benvinguts! Us trobeu al tauler de control de l'administració. És una eina útil per a visualitzar les novetats de la xarxa",
+	
+	'admin:widget:admin_welcome:admin_overview' =>
+"La navegació per l'àrea d'administració es troba al menú de la dreta i s'organitza en"
+. " tres seccions:
+	<dl>
+		<dt>Administrar</dt><dd>Tasques diàries com monitoritzar els continguts, verificar els usuaris connectats i visualitzar les estadístiques.</dd>
+		<dt>Configurar</dt><dd>Tasques ocasionals com establir el nom de la xarxa social i activar/desactivar extensions.</dd>
+		<dt>Desenvolupar</dt><dd>Per a desenvolupadors d'extensions i disseny de temes personalitzats. (Necessita l'extensió de desenvolupador.)</dd>
+	</dl>
+	",
+	
+	// argh, this is ugly
+	'admin:widget:admin_welcome:outro' => "<br />Verifiqueu els recursos disponibles als enllaços del peu de pàgina. Gràcies per utilitzar Elgg!",
+	
+	'admin:footer:faq' => "PMFs d'administració",
+	'admin:footer:manual' => "Manual d'Administració",
+	'admin:footer:community_forums' => "Fòrums de la comunitat de l'Elgg",
+	'admin:footer:blog' => "Bloc de l'Elgg",
+	
+	'admin:plugins:category:all' => "Totes les extensions",
+	'admin:plugins:category:active' => "Extensions activades",
+	'admin:plugins:category:inactive' => "Extensions desactivades",
+	'admin:plugins:category:admin' => "Administració",
+	'admin:plugins:category:bundled' => "Inclòs",
+	'admin:plugins:category:content' => "Contingut",
+	'admin:plugins:category:development' => "Desenvolupament",
+	'admin:plugins:category:enhancement' => "Millores",
+	'admin:plugins:category:api' => "Servei/API",
+	'admin:plugins:category:communication' => "Comunicació",
+	'admin:plugins:category:security' => "Seguretat i Spam",
+	'admin:plugins:category:social' => "Social",
+	'admin:plugins:category:multimedia' => "Multimèdia",
+	'admin:plugins:category:theme' => "Temes",
+	'admin:plugins:category:widget' => "Enginys",
+	
+	'admin:plugins:sort:priority' => "Prioritat",
+	'admin:plugins:sort:alpha' => "Alfabètic",
+	'admin:plugins:sort:date' => "Les més noves",
+	
+	'admin:plugins:markdown:unknown_plugin' => "Extensió desconeguda",
+	'admin:plugins:markdown:unknown_file' => "Arxiu desconegut",
+	
+	
+	'admin:notices:could_not_delete' => "No s'ha pogut suprimir la notificació",
+	
+	'admin:options' => "Opcions d'administració",
+	
+	
+	
+	
+/**
+ * Plugins
+ */
+	'plugins:settings:save:ok' => "La configuració de l'extensió %s s'ha desat correctament",
+	'plugins:settings:save:fail' => "S'ha produït un error al desar la configuració de l'extensió %s",
+	'plugins:usersettings:save:ok' => "S'ha desat la configuració de l'usuari per a l'extensió %s",
+	'plugins:usersettings:save:fail' => "S'ha produït un error al desar la configuració de l'usuari per a l'extensió %s",
+	'item:object:plugin' => "Extensions",
+	
+	'admin:plugins' => "Extensions",
+	'admin:plugins:activate_all' => "Activar-les tots",
+	'admin:plugins:deactivate_all' => "Desactivar-les tots",
+	'admin:plugins:activate' => "Activar",
+	'admin:plugins:deactivate' => "Desactivar",
+	'admin:plugins:description' => "El tauler us permet controlar i configurar les eines instal·lades al lloc web",
+	'admin:plugins:opt:linktext' => "Configurar les eines..",
+	'admin:plugins:opt:description' => "Configurar les eines instal·lades al lloc web.",
+	'admin:plugins:label:author' => "Autor",
+	'admin:plugins:label:copyright' => "Copyright",
+	'admin:plugins:label:categories' => "Categories",
+	'admin:plugins:label:licence' => "Llicència",
+	'admin:plugins:label:website' => "URL",
+	'admin:plugins:label:moreinfo' => "més informació",
+	'admin:plugins:label:version' => "Versió",
+	'admin:plugins:label:location' => "Ubicació",
+	'admin:plugins:label:dependencies' => "Dependències",
+	
+	'admin:plugins:warning:elgg_version_unknown' => "L'arxiu de manifest de l'extensió és obsolet i no especifica una versió compatible de l'Elgg. És molt probable que no funcioni!",
+	'admin:plugins:warning:unmet_dependencies' => "L'extensió té dependències desconegudes i no s'activarà. Podeu consultar les dependències a l'apartat de més informació",
+	'admin:plugins:warning:invalid' => "%s no és una extensió vàlida de l'Elgg. Per a solucionar el problema visiteu <a href='http://docs.elgg.org/Invalid_Plugin'>la documentació de l'Elgg</a>",
+	'admin:plugins:cannot_activate' => "no s'ha pogut activar",
+	
+	'admin:plugins:set_priority:yes' => "Tornar a ordenar %s",
+	'admin:plugins:set_priority:no' => "No s'ha pogut tornar a ordenar %s",
+	'admin:plugins:deactivate:yes' => "Desactivar %s",
+	'admin:plugins:deactivate:no' => "No s'ha pogut desactivar %s",
+	'admin:plugins:activate:yes' => "S'ha activat %s",
+	'admin:plugins:activate:no' => "No s'ha pogut activar %s",
+	'admin:plugins:categories:all' => "Totes les categories",
+	'admin:plugins:plugin_website' => "Lloc web de l'extensió",
+	'admin:plugins:author' => "%s",
+	'admin:plugins:version' => "Versió %s",
+	'admin:plugins:simple' => "Simple",
+	'admin:plugins:advanced' => "Avançada",
+	'admin:plugin_settings' => "Configuració de l'extensió",
+	'admin:plugins:simple_simple_fail' => "No s'ha pogut desar la configuració",
+	'admin:plugins:simple_simple_success' => "S'ha desat la configuració",
+	'admin:plugins:simple:cannot_activate' => "No s'ha pogut activar l'extensió. Per a més informació verifiqueu-ne l'àrea d'administració avançada.",
+	'admin:plugins:warning:unmet_dependencies_active' => "L'extensió està activada però disposa de dependències desconegudes. Es poden produir erros en el seu funcionament. Per accedir a informació més detallada aneu a l'apartat \"Més informació\"",
+	
+	'admin:plugins:dependencies:type' => "Tipus",
+	'admin:plugins:dependencies:name' => "Nom",
+	'admin:plugins:dependencies:expected_value' => "Valor de Prova",
+	'admin:plugins:dependencies:local_value' => "Valor Actual",
+	'admin:plugins:dependencies:comment' => "Comentari",
+	
+	'admin:statistics:description' => "És un resum de les estadístiques del lloc web. Si necessiteu estadístiques més avançades podeu accedir-hi a través de la funcionalitat d'administració professional",
+	'admin:statistics:opt:description' => "Veure la informació estadística dels usuaris i els objectes del lloc web",
+	'admin:statistics:opt:linktext' => "Veure les estadístiques..",
+	'admin:statistics:label:basic' => "Estadístiques bàsiques del lloc web",
+	'admin:statistics:label:numentities' => "Entitats del lloc web",
+	'admin:statistics:label:numusers' => "Nombre d'usuaris",
+	'admin:statistics:label:numonline' => "Nombre d'usuaris connectats",
+	'admin:statistics:label:onlineusers' => "Usuaris connectats",
+	'admin:statistics:label:version' => "Versió de l'Elgg",
+	'admin:statistics:label:version:release' => "Release",
+	'admin:statistics:label:version:version' => "Versió",
+	
+	'admin:user:label:search' => "Trobar usuari:",
+	'admin:user:label:searchbutton' => "Cercar",
+	
+	'admin:user:ban:no' => "No s'ha pogut bloquejar l'usuari",
+	'admin:user:ban:yes' => "S'ha bloquejat l'usuari",
+	'admin:user:self:ban:no' => "No us podeu desbloquejar",
+	'admin:user:unban:no' => "No s'ha pogut desbloquejar l'usuari",
+	'admin:user:unban:yes' => "S'ha desbloquejat l'usuari",
+	'admin:user:delete:no' => "No s'ha pogut eliminar l'usuari",
+	'admin:user:delete:yes' => "S'ha eliminat l'usuari %s",
+	'admin:user:self:delete:no' => "No us podeu eliminar",
+	
+	'admin:user:resetpassword:yes' => "S'ha pogut tornar a establir la contrasenya. Es notificarà l'usuari",
+	'admin:user:resetpassword:no' => "No s'ha pogut tornar a establir la contrasenya",
+	
+	'admin:user:makeadmin:yes' => "L'usuari és administrador",
+	'admin:user:makeadmin:no' => "No s'ha pogut establir l'usuari com a administrador",
+	
+	'admin:user:removeadmin:yes' => "L'usuari ja no és administrador",
+	'admin:user:removeadmin:no' => "No podeu treure els drets d'administrador a l'usuari",
+	'admin:user:self:removeadmin:no' => "No podeu suprimir els drets d'administrador",
+	
+	'admin:appearance:menu_items' => "Elements del menú",
+	'admin:menu_items:configure' => "Configurar els elements del menú principal",
+	'admin:menu_items:description' => "Seleccioneu els elements del menú que voleu mostrar com a enllaços preferits. Els elements no seleccionats seran accessibles a través de l'element \"Més\" situat al final de la llista",
+	'admin:menu_items:hide_toolbar_entries' => "Voleu treure els enllaços del menú de la barra d'eines ?",
+	'admin:menu_items:saved' => "Elements del menú desats",
+	'admin:add_menu_item' => "Afegir un element del menú personalitzat",
+	'admin:add_menu_item:description' => "Per agregar un element al menú personalitzat introduïu el nom que es visualitzarà i la direcció URL associada",
+	
+	'admin:appearance:default_widgets' => "Enginys predeterminats",
+	'admin:default_widgets:unknown_type' => "El tipus d'enginy és desconegut",
+	'admin:default_widgets:instructions' => "Afegir, treure, noure i configurar els enginys predeterminats a la pàgina d'enginys seleccionada"
+	. " Els canvis només s'aplicaran als nous usuaris",
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 	 
