@@ -771,7 +771,174 @@ $catalan = array(
 	
 	
 	
+/**
+ * User settings
+ */
+	'usersettings:description' => "El tauler de configuració us permet parametritzar les vostres preferències personals, des de l'administració d'usuaris al comportament de les extensions. Per a començar, seleccioneu una opció",
 	
+	'usersettings:statistics' => "Les vostres estadístiques",
+	'usersettings:statistics:opt:description' => "Veure la informació estadística dels usuaris i objectes de la xarxa",
+	'usersettings:statistics:opt:linktext' => "Estadístiques del compte",
+	
+	'usersettings:user' => "Les vostres preferències",
+	'usersettings:user:opt:description' => "Aquesta funcionalitat us permet definir les vostres preferències",
+	'usersettings:user:opt:linktext' => "Modificar les vostres preferències",
+	
+	'usersettings:plugins' => "Eines",
+	'usersettings:plugins:opt:description' => "Preferències de configuració de les vostres eines actives",
+	'usersettings:plugins:opt:linktext' => "Configureu les vostres eines",
+	
+	'usersettings:plugins:description' => "El tauler us permet definir les preferències personals de les eines habilitades per l'administrador del sistema",
+	'usersettings:statistics:label:numentities' => "El contingut",
+	
+	'usersettings:statistics:yourdetails' => "La vostra informació detallada",
+	'usersettings:statistics:label:name' => "Nom complet",
+	'usersettings:statistics:label:email' => "Adreça de correu electrònic",
+	'usersettings:statistics:label:membersince' => "Membre des de",
+	'usersettings:statistics:label:lastlogin' => "Últim accés",
+	
+
+
+
+/**
+ * Activity river
+ */
+  'river:all' => "Activitat de tota la xarxa",
+	'river:mine' => "La meva activitat",
+	'river:friends' => "L'activitat dels meus amics",
+	'river:select' => "Mostrar %s",
+	'river:comments:more' => "+%u més",
+	'river:generic_comment' => "comentat a %s %s",
+	
+	'friends:widget:description' => "Mostra alguns dels vostres amics",
+	'friends:num_display' => "Quantitat d'amics a mostrar",
+	'friends:icon_size' => "Mida de la icona",
+	'friends:tiny' => "molt petita",
+	'friends:small' => "petita",
+	
+
+
+
+/**
+ * Generic action words
+ */
+	'save' => "Guardar",
+	'reset' => "Reiniciar",
+	'publish' => "Publicar",
+	'cancel' => "Cancel·lar",
+	'saving' => "Desant..",
+	'update' => "Actualitzar",
+	'preview' => "Previsualitzar",
+	'edit' => "Editar",
+	'delete' => "Eliminar",
+	'accept' => "Acceptar",
+	'load' => "Carregar",
+	'upload' => "Pujar",
+	'ban' => "Bloquejar",
+	'unban' => "Desbloquejar",
+	'banned' => "Bloquejat",
+	'enable' => "Habilitar",
+	'disable' => "Inhabilitar",
+	'request' => "Sol·licitud",
+	'complete' => "Completa",
+	'open' => "Obrir",
+	'close' => "Tancar",
+	'reply' => "Respondre",
+	'more' => "Més",
+	'comments' => "Comentaris",
+	'import' => "Importar",
+	'export' => "Exportar",
+	'untitled' => "Sense Títol",
+	'help' => "Ajuda",
+	'send' => "Enviar",
+	'post' => "Publicar",
+	'submit' => "Enviar",
+	'comment' => "Comentar",
+	'upgrade' => "Actualitzar",
+	'sort' => "Ordenar",
+	'filter' => "Filtrar",
+	
+	'site' => "Lloc web",
+	'activity' => "Activitat",
+	'members' => "Membre",
+	
+	'up' => "Amunt",
+	'down' => "Avall",
+	'top' => "Primer",
+	'bottom' => "Últim",
+	
+	'more' => "més",
+	
+	'invite' => "Convidat",
+	
+	'resetpassword' => "Tornar a establir la contrassenya",
+	'makeadmin' => "Afegir un administrador",
+	'removeadmin' => "Suprimir l'administrador",
+	
+	'option:yes' => "Sí",
+	'option:no' => "No",
+	
+	'unknown' => "Desconegut",
+	
+	'active' => "Actiu",
+	'total' => "Total",
+	
+	'learnmore' => "Premeu per a veure més",
+	
+	'content' => "contingut",
+	'content:latest' => "Última activitat",
+	'content:latest:blurb' => "Premeu alternativament per veure el contingut actualitzat de la xarxa.",
+	
+	'link:text' => "veure l'enllaç",
+	
+
+	
+	
+/**
+	* Generic questions
+	*/
+	'question:areyousure' => "N'esteu segur?",
+
+	
+	
+	
+/**
+	* Generic data words
+	*/
+	'title' => "Títol",
+	'description' => "Descripció",
+	'tags' => "Etiquetes",
+	'spotlight' => "Enfocament",
+	'all' => "Tots",
+	'mine' => "Meu",
+	
+	'by' => "per",
+	'none' => "res",
+	
+	'annotations' => "Anotacions",
+	'relationships' => "Relacions",
+	'metadata' => "Metadades",
+	'tagcloud' => "Núvol d'etiquetes",
+	'tagcloud:allsitetags' => "Etiquetes de tot el lloc web",
+	
+	
+
+
+/**
+	* Entity actions
+	*/
+	'edit:this' => "Editar",
+	'delete:this' => "Suprimir",
+	'comment:this' => "Comentar",
+
+	
+	
+	
+/**
+	* Input / output strings
+	*/
+	'deleteconfirm' => "Segur que voleu suprimir l'element ?",
+	'fileexists' => "S'ha penjat l'arxiu. Per a substituir-lo, seleccioneu:",	
 	
 	
 	
