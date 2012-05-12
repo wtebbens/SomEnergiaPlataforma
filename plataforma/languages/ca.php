@@ -412,148 +412,148 @@ $catalan = array(
 	
 	
 	
+/**
+	* Feeds
+	*/
+	'feed:rss' => 'Canal RSS per aquesta p&agrave;gina',
+	
+
+
+
+/**
+	* Links
+	*/
+	'link:view' => 'Veure enllaç',
+	'link:view:all' => 'Veure tots',
 
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+/**
+	* River
+	*/
+	'river' => "River",
+	'river:friend:user:default' => "%s ara &eacute;s contacte de %s",
+	'river:update:user:avatar' => '%s t&eacute; una nova imatge de perfil',
+	'river:noaccess' => 'No tens permisos per a veure aquest element',
+	'river:posted:generic' => '%s publicat',
+	'riveritem:single:user' => 'un/a usuari/a',
+	'riveritem:plural:user' => 'alguns/es usuaris/es',
+	'river:ingroup' => 'en el grup %s',
+	'river:none' => 'Sense activitat',
+	
+	'river:widget:title' => "Activitat",
+	'river:widget:description' => "Veure la &uacute;ltima activitat",
+	'river:widget:type' => "Tipus d'activitat",
+	'river:widgets:friends' => 'Activitat de contactes',
+	'river:widgets:all' => "Tota l'activitat del lloc",
+
+	
+	
+
+/**
+	* Notifications
+	*/
+	'notifications:usersettings' => "Configuraci&oacute; de notificacions",
+	'notifications:methods' => "Si us plau, indica els m&egrave;todes que vols habilitar",
+	
+	'notifications:usersettings:save:ok' => "La teva configuraci&oacute; de notificacions s'ha guardat correctament",
+	'notifications:usersettings:save:fail' => "Hi ha hagut un error al guardar la configuraci&oacute; de notificacions",
+	
+	'user.notification.get' => 'Retornar la configuraci&oacute; de notificacions per un/a usuari/a',
+	'user.notification.set' => 'Guardar la configuraci&oacute; de notificacions per un/a usuari/a',
+	
+	
+
+	
+/**
+	* Search
+	*/
+	'search' => "Cercar",
+	'searchtitle' => "Cercar: %s",
+	'users:searchtitle' => "Cercar per usuaris/es: %s",
+	'groups:searchtitle' => "Cercar per grups: %s",
+	'advancedsearchtitle' => "%s amb coincid&egrave;ncies en resultats %s",
+	'notfound' => "No s'han trobat resultats",
+	'next' => "Seg&uuml;ent",
+	'previous' => "Anterior",
+	
+	'viewtype:change' => "Modificar tipus de llista",
+	'viewtype:list' => "Veure llista",
+	'viewtype:gallery' => "Galeria",
+	
+	'tag:search:startblurb' => "&Iacute;tems amb etiquetes que coincideixen amb '%s':",
+	
+	'user:search:startblurb' => "Usuaris/es que coincideixen amb '%s':",
+	'user:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
+	
+	'group:search:startblurb' => "Grups que coincideixen amb '%s':",
+	'group:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
+	'search:go' => 'Anar',
+	'userpicker:only_friends' => 'Nom&eacute;s contactes',
+	
+	
+
+	
+/**
+	* Account
+	*/
+	'account' => "Compte",
+	'settings' => "Configuraci&oacute;",
+	'tools' => "Eines",
+	
+	'register' => "Registrar-se",
+	'registerok' => "T'has registrat correctament per %s",
+	'registerbad' => "No t'has pugut registrar degut a un error desconegut",
+	'registerdisabled' => "El registre s'ha deshabilitat per l'administrador del sistema",
+	
+	'registration:notemail' => "No has ingressat una adreça d'email v&agrave;lida",
+	'registration:userexists' => "El nom d'usuari/a ja existeix",
+	'registration:usernametooshort' => "El nom d'usuari/a ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:passwordtooshort' => "La contrasenya ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:dupeemail' => "Ja es troba registrada la adreça d'email",
+	'registration:invalidchars' => "El teu nom d'usuari/a t&eacute; car&agrave;acters inv&agrave;lids: %s. Aquests s&oacute;n tots els car&agrave;cters que es troban invalidats: %s",
+	'registration:emailnotvalid' => "La adreça d'email que has ingressat &eacute;s inv&agrave;lid al sistema",
+	'registration:passwordnotvalid' => 'La contrasenya que has ingressat es inv&agrave;lid al sistema',
+	'registration:usernamenotvalid' => "El nom d'usuari/a que has ingressat &eacute;s inv&agrave;lid al sistema",
+	
+	'adduser' => "Nou usuari/a",
+	'adduser:ok' => "S'ha enregistrat correctament un nou usuari/a",
+	'adduser:bad' => "No s'ha pogut enregistrar el nou usuari/a",
+	
+	'user:set:name' => "Configuraci&oacute; del nom de compte",
+	'user:name:label' => "El meu nom per a mostrar",
+	'user:name:success' => "S'ha modificat correctament el seu nom a la plataforma",
+	'user:name:fail' => "No s'ha pogut modificar el seu nom a la plataforma. Si us plau, assegura't que no es massa llarg i prova de nou",
+	
+	'user:set:password' => "Contrasenya del compte",
+	'user:current_password:label' => 'Contrasenya actual',
+	'user:password:label' => "Nova contrasenya",
+	'user:password2:label' => "Confirmar nova contrasenya",
+	'user:password:success' => "Contrasenya modificada",
+	'user:password:fail' => "No s'ha pogut modificar la contrasenya a la plataforma",
+	'user:password:fail:notsame' => "Les dues contrasenyes no coincideixen!",
+	'user:password:fail:tooshort' => "La contrasenya &eacute;s massa curta!",
+	'user:password:fail:incorrect_current_password' => "La contrasenya ingressada &eacute;s incorrecta",
+	'user:resetpassword:unknown_user' => "Usuari/a inv&agrave;lid",
+	'user:resetpassword:reset_password_confirm' => "Al modificar la contrasenya rebr&agrave;s la nova a la direcci&oacute; d'email registrada",
+	
+	'user:set:language' => "Configuraci&oacute; de l'idioma",
+	'user:language:label' => "El teu idioma",
+	'user:language:success' => "S'ha actualitzat la teva configuraci&oacute; d'idioma",
+	'user:language:fail' => "No s'ha pogut actualitzar la teva configuraci&oacute; d'idioma",
+	
+	'user:username:notfound' => "No es troba l'usuari/a %s",
+	
+	'user:password:lost' => "He oblidat la meva contrasenya",
+	'user:password:resetreq:success' => "Sol&middot;licitut de nova contrasenya confirmada, se t'ha enviat un email",
+	'user:password:resetreq:fail' => "No s'ha pugut sol&middot;licitar una nova contrasenya",
+	
+	'user:password:text' => "Per a sol&middot;licitar una nova contrasenya ingressa el teu nom d'usuari/a i pressiona el bot&oacute; de sota",
+	
+	'user:persistent' => "Recorda-m'ho",
+	
+	'walled_garden:welcome' => "Benvingut a",
 	
 	
 	
@@ -860,7 +860,7 @@ $catalan = array(
 	
 	'site' => "Lloc web",
 	'activity' => "Activitat",
-	'members' => "Membre",
+	'members' => "Membres",
 	
 	'up' => "Amunt",
 	'down' => "Avall",
