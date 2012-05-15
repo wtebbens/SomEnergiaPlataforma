@@ -242,68 +242,68 @@ $catalan = array(
 	
 	
 	
+/**
+ * API
+ */
+	'system.api.list' => "Llista de totes les crides de l'API del sistema",
+	'auth.gettoken' => "La crida permet a l'usuari obtenir un testimoni d'autenticació que pot utilitzar per a futures crides a l'API enviant-lo com a paràmetre auth_token",
 	
 	
 	
 	
+/**
+ * User details
+ */
+	'name' => "Nom",
+	'email' => "Adreça de correu electrònic",
+	'username' => "Nom de l'usuari",
+	'loginusername' => "Nom de l'usuari o adreça de correu electrònic",
+	'password' => "Contrasenya",
+	'passwordagain' => "Contrasenya (verificació)",
+	'admin_option' => "Voleu que l'usuari sigui administrador?",
 	
 	
 	
 	
+/**
+ * Access
+ */
+	'PRIVATE' => "Privat",
+	'LOGGED_IN' => "Usuaris connectats",
+	'PUBLIC' => "Tots",
+	'access:friends:label' => "Contactes",
+	'access' => "Accés",
 	
 	
 	
 	
+/**
+ * Dashboard and widgets
+ */
+	'dashboard' => "Quadre de control",
+	'dashboard:nowidgets' => "El quadre de control us permet seguir l'activitat i el contingut que us pugui interessar del lloc web",
+	
+	'widgets:add' => "Afegir un enginy",
+	'widgets:add:description' => "Per afegir un enginy a la pàgina premeu el botó",
+	'widgets:position:fixed' => "(Posició fixa a la pàgina)",
+	'widget:unavailable' => "S'ha afegit l'enginy",
+	'widget:numbertodisplay' => "Quantitat d'elements a visualitzar",
+	
+	'widget:delete' => "Suprimir %s",
+	'widget:edit' => "Personalitzar l'enginy",
+	
+	'widgets' => "Enginys",
+	'widget' => "Enginy",
+	'item:object:widget' => "Enginys",
+	'widgets:save:success' => "L'enginy s'ha desat correctament",
+	'widgets:save:failure' => "No s'ha pogut desar l'enginy. Torneu-ho a intentar",
+	'widgets:add:success' => "L'enginy s'ha afegit correctament",
+	'widgets:add:failure' => "No s'ha pogut afegir l'enginy",
+	'widgets:move:failure' => "No s'ha pogut desar la posició de l'enginy",
+	'widgets:remove:failure' => "No s'ha pogut suprimir l'enginy",	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 /**
   * Groups
