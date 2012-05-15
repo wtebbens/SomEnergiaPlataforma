@@ -943,14 +943,296 @@ $catalan = array(
 	
 	
 	
+/**
+	* User add
+	*/
+	'useradd:subject' => "S'ha creat el compte d'usuari",
+	'useradd:body' => "
+%s,
 	
+S'ha creat el vostre compte d'usuari a %s. Per iniciar una sessió visiteu:
+	
+%s
+
+i inicieu la sessió amb les credencials següents:
+	
+Nom d'usuari: %s
+contrasenya: %s
+	
+Us recomanem que modifiqueu la vista contrasenya un cop autenticats.
+",
+	
+	
+	
+	
+/**
+	* System messages
+	**/
+	'systemmessages:dismiss' => "Premeu-lo per tancar",
+
+	
+	
+	
+/**
+	* Import / export
+	*/
+	'importsuccess' => "La importació s'ha realitzat correctament",
+	'importfail' => "S'ha produït un error en la importació de dades de l'OpenDD",
+	
+	
+	
+	
+/**
+	* Time
+	*/
+	'friendlytime:justnow' => "ara",
+	'friendlytime:minutes' => "fa %s minuts",
+	'friendlytime:minutes:singular' => "fa un minut",
+	'friendlytime:hours' => "fa %s hores",
+	'friendlytime:hours:singular' => "fa una hora",
+	'friendlytime:days' => "fa %s dies",
+	'friendlytime:days:singular' => "ahir",
+	'friendlytime:date_format' => "j F Y @ g:ia",
+	
+	'date:month:01' => "Gener %s",
+	'date:month:02' => "Febrer %s",
+	'date:month:03' => "Març %s",
+	'date:month:04' => "Abril %s",
+	'date:month:05' => "Maig %s",
+	'date:month:06' => "Juny %s",
+	'date:month:07' => "Juliol %s",
+	'date:month:08' => "Agost %s",
+	'date:month:09' => "Setembre %s",
+	'date:month:10' => "Octubre %s",
+	'date:month:11' => "Novembre %s",
+	'date:month:12' => "Desembre %s",
+	
+	
+	
+	
+/**
+	* System settings
+	*/
+	'installation:sitename' => "El nom del lloc web:",
+	'installation:sitedescription' => "Breu descripció del lloc web (opcional):",
+	'installation:wwwroot' => "URL del lloc web:",
+	'installation:path' => "El camí sencer a la instal·lació de l'Elgg:",
+	'installation:dataroot' => "El camí sencer al directori de dades:",
+	'installation:dataroot:warning' => "El directori s'ha de crear manualment. El directori ha d'estar en un directori diferent al de la instal·lació de l'Elgg",
+	'installation:sitepermissions' => "Permisos d'accés predeterminats:",
+	'installation:language' => "Idioma predeterminat:",
+	'installation:debug' => "El mode Depuració ofereix informació extra que es pot utilitzar per avaluar incidències. L'activació del mode pot disminuir la velocitat de funcionament del sistema i només s'ha d'utilitzar quan es detectin problemes:",
+	'installation:debug:none' => "Inhabilitar el mode Depuració (recomanat)",
+	'installation:debug:error' => "Mostrar només els errors crítics",
+	'installation:debug:warning' => "Mostrar només les alertes crítiques",
+	'installation:debug:notice' => "Mostrar tots els errors, alertes i informació d'incidències",
+	
+	// Walled Garden support
+	'installation:registration:description' => "El registre està activitat per defecte. Podeu desactivar l'opció per evitar que els usuaris es puguin registrar",
+	'installation:registration:label' => "Habilitar el registre de nous usuaris",
+	'installation:walled_garden:description' => "Habilitar l'execució del lloc web en una xarxa privada. L'opció impedeix la visualització de qualsevol pàgina no pública als usuaris no registrats",
+	'installation:walled_garden:label' => "Restringir l'accés a les pàgines a usuaris registrats",
+	
+	'installation:httpslogin' => "Habiliteu l'opció per forçar l'autenticació HTTPS. Perquè funcioni també caldrà que habiliteu l'autenticació HTTPS al servidor",
+	'installation:httpslogin:label' => "Habilitar l'autenticació HTTPS",
+	'installation:view' => "Introduïu la vista predeterminada del lloc web o deixeu-ho en blanc per utilitzar la vista predeterminada (en cas de dubte deixeu la predeterminada):",
+	
+	'installation:siteemail' => "Adreça de correu electrònic del lloc web (s'utilitza per enviar correus electrònics del sistema):",
+	
+	'installation:disableapi' => "L'Elgg disposa d'una API per al desenvolupament de serveis web que permet que aplicacions remotes puguin interactuar amb el lloc web",
+	'installation:disableapi:label' => "Habilitar la API de serveis web de l'Elgg",
+	
+	'installation:allow_user_default_access:description' => "Permet que els usuaris puguin establir el seu propi nivell d'accés predeterminat. Permet sobreescriure els nivell d'accés del sistema",
+	'installation:allow_user_default_access:label' => "Habilitar l'accés predeterminat dels usuaris",
+	
+	'installation:simplecache:description' => "La memòria cau simple augmenta el rendiment en l'emmagatzematge de contingut estàtic com poden ser fulls  CSS i arxius JavaScript. En la majoria dels casos la funció està activada",
+	'installation:simplecache:label' => "Utilitzar la memòria cau simple (recomanat)",
+	
+	'installation:viewpathcache:description' => "La memòria cau de camins de les vistes redueix els temps de càrrega de les extensions guardant la ubicació dels arxius",
+	'installation:viewpathcache:label' => "Utilitzar la memòria cau de camins de les vistes (recomanat)",
+	
+	'upgrading' => "S'està actualitzant..",
+	'upgrade:db' => "S'ha actualitzat la base de dades",
+	'upgrade:core' => "S'ha actualitzat la instal·lació de l'Elgg",
+	'upgrade:unable_to_upgrade' => "No s'ha pogut actualitzar",
+	'upgrade:unable_to_upgrade_info' =>
+	"La instal·lació no es pot actualitzar perquè s'han detectat vistes velles al directori de vistes
+	del nucli de l'Elgg. Aquestes vistes estan obsoletes i s'han de suprimir per assegurar que l'Elgg funciona
+	correctament. Si no heu realitzat modificacions de l'Elgg podeu suprimir el directori de vistes i
+	reemplaçar-lo amb l'últim del paquet d'instal·lació de l'Elgg disponible a <a href='http://elgg.org'>elgg.org</a>.<br /><br />
+	
+	
+	Si necessiteu instruccions detallades visiteu la <a href='http://docs.elgg.org/wiki/Upgrading_Elgg'>
+	Documentació d'actualització de l'Elgg</a>. Si necessiteu ajuda visiteu els
+	<a href='http://community.elgg.org/pg/groups/discussion/'>Fòrums de suport a la comunitat</a>",
+		
+	'update:twitter_api:deactivated' => "Durant l'actualització s'ha desactivat l'API de Twitter (anteriorment Twitter Service). Si la voleu utilitzar activeu-la manualment",
+	'update:oauth_api:deactivated' => "Durant l'actualització s'ha desactivat l'API OAuth (anteriorment OAuth Lib). Si la voleu utilitzar activeu-la manualment",
+	
+	'deprecated:function' => "%s() ha quedat obsoleta per %s()",
+	
+	
+	
+	
+/**
+	* Welcome
+	*/
+	'welcome' => "Benvingut/da",
+	'welcome:user' => "Benvingut/da %s",
+	
+	
+	
+	
+/**
+	* Emails
+	*/
+	'email:settings' => "Configuració del correu electrònic",
+	'email:address:label' => "Adreça del correu electrònic",
+	
+	'email:save:success' => "S'ha desat la nova adreça de correu electrònic. S'ha sol·licitat la seva verificació",
+	'email:save:fail' => "No s'ha pogut desar la nova adreça de correu electrònic",
+	
+	'friend:newfriend:subject' => "%s t'ha afegit a la seva llista de contactes!",
+	'friend:newfriend:body' => "%s t'ha afegit a la seva llista de contactes!
+	
+	Per visualitzar el seu perfil premeu:
+	
+%s
+
+Siusplau, no respongueu a aquest correu electrònic",
+	
+	
+	
+	'email:resetpassword:subject' => "S'ha restablert la contrasenya!",
+	'email:resetpassword:body' => "Hola %s,
+	
+S'ha restablert la vostra contrasenya: %s",
+	
+	
+	'email:resetreq:subject' => "Sol·licitud de nova contrasenya",
+	'email:resetreq:body' => "Hola %s,
+
+Algú (des de l'adreça IP %s) ha sol·licitat una nova contrasenya pel vostre compte.
+	
+Si heu fet la sol·licitud premeu l'enllaç de sota. En cas contrari, ignoreu aquest correu electrònic.
+	
+%s
+",
+	
+	
+	
+	
+/**
+	* user default access
+	*/
+	'default_access:settings' => "El vostre nivell d'accés predeterminat",
+	'default_access:label' => "Nivell d'accés predeterminat",
+	'user:default_access:success' => "S'ha desat el nivell d'accés predeterminat",
+	'user:default_access:failure' => "No s'ha pogut desar el nivell d'accés predeterminat",
+	
+	
+	
+	
+/**
+	* XML-RPC
+	*/
+	'xmlrpc:noinputdata' => "Dades pendents",
+	
+	
+	
+	
+/**
+	* Comments
+	*/
+	'comments:count' => "%s comentaris",
+	
+	'riveraction:annotation:generic_comment' => "%s ha comentat a %s",
+	
+	'generic_comments:add' => "Comentar",
+	'generic_comments:post' => "Publicar un comentari",
+	'generic_comments:text' => "Comentar",
+	'generic_comments:latest' => "Últims comentaris",
+	'generic_comment:posted' => "S'ha publicat el vostre comentari",
+	'generic_comment:deleted' => "S'ha suprimit el vostre comentari",
+	'generic_comment:blank' => "Heu d'introduir un comentari abans de poder desar-lo",
+	'generic_comment:notfound' => "No s'ha pogut trobar l'element indicat",
+	'generic_comment:notdeleted' => "No s'ha pogut suprimir el comentari",
+	'generic_comment:failure' => "S'ha produït un error a l'intentar afegir el vostre comentari. Torneu-ho a intentar",
+	'generic_comment:none' => "Sense comentaris",
+	
+	'generic_comment:email:subject' => "Teniu un comentari nou!",
+	'generic_comment:email:body' => "Teniu un comentari nou a \"%s\" de %s. Diu:
+	
+	
+%s
+	
+	
+Per respondre o veure l'original, premeu:
+	
+%s
+	
+Per veure el perfil de %s, premeu:
+	
+%s
+	
+Siusplau, no respongueu a aquest correu",
+	
+	
+	
+	
+/**
+	* Entities
+	*/
+	'byline' => "Per %s",
+	'entity:default:strapline' => "Creat %s per %s",
+	'entity:default:missingsupport:popup' => "L'entitat no s'ha pogut mostrar correctament. Es pot deure a que el suport que ofereix una extensió ja no estigui instal·lat al sistema",
+	
+	'entity:delete:success' => "S'ha suprimit l'entitat %s",
+	'entity:delete:fail' => "No s'ha pogut suprimir l'entitat %s",
+	
+	
+	
+	
+/**
+	* Action gatekeeper
+	*/
+	'actiongatekeeper:missingfields' => "Falten camps _token o camps _ts",
+	'actiongatekeeper:tokeninvalid' => "S'ha trobat un error (el token no coincideix). Probablement es degui al venciment de la pàgina. Torneu-ho a intentar",
+	'actiongatekeeper:timeerror' => "La pàgina que estàveu utilitzant ha vençut. Actualitzeu-la i torneu-ho a intentar",
+	'actiongatekeeper:pluginprevents' => "El formulari no s'ha enviat perquè una extensió no ho ha autoritzat",
+	
+	
+	
+	
+/**
+	* Word blacklists
+	*/
+	'word:blacklist' => "and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever",
+	
+	
+	
+	
+/**
+	* Tag labels
+	*/
+	'tag_names:tags' => "Etiquetes",
+	'tags:site_cloud' => "Núvol d'etiquetes del lloc web",
+	
+	
+	
+	
+/**
+	* Javascript
+	*/
+	'js:security:token_refresh_failed' => "No s'ha pogut restaurar la connexió amb %s. Es poden produir problemes al desar continguts al lloc web",
+	'js:security:token_refreshed' => "S'ha restaurat la connexió amb %s!",	
 	
 	
 	
 
-
-	 
-	 
+/**
+ * Languages according to ISO 639-1
+ */
 	 'aa'  =>  "Afar" , 
 	 'ab'  =>  "Abkhazià" , 
 	 'af'  =>  "Afrikaans" , 
