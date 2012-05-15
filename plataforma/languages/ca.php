@@ -412,12 +412,827 @@ $catalan = array(
 	
 	
 	
-
+/**
+	* Feeds
+	*/
+	'feed:rss' => 'Canal RSS per aquesta p&agrave;gina',
 	
 
 
-	 
-	 
+
+/**
+	* Links
+	*/
+	'link:view' => 'Veure enllaç',
+	'link:view:all' => 'Veure tots',
+
+	
+	
+
+/**
+	* River
+	*/
+	'river' => "River",
+	'river:friend:user:default' => "%s ara &eacute;s contacte de %s",
+	'river:update:user:avatar' => '%s t&eacute; una nova imatge de perfil',
+	'river:noaccess' => 'No tens permisos per a veure aquest element',
+	'river:posted:generic' => '%s publicat',
+	'riveritem:single:user' => 'un/a usuari/a',
+	'riveritem:plural:user' => 'alguns/es usuaris/es',
+	'river:ingroup' => 'en el grup %s',
+	'river:none' => 'Sense activitat',
+	
+	'river:widget:title' => "Activitat",
+	'river:widget:description' => "Veure la &uacute;ltima activitat",
+	'river:widget:type' => "Tipus d'activitat",
+	'river:widgets:friends' => 'Activitat de contactes',
+	'river:widgets:all' => "Tota l'activitat del lloc",
+
+	
+	
+
+/**
+	* Notifications
+	*/
+	'notifications:usersettings' => "Configuraci&oacute; de notificacions",
+	'notifications:methods' => "Si us plau, indica els m&egrave;todes que vols habilitar",
+	
+	'notifications:usersettings:save:ok' => "La teva configuraci&oacute; de notificacions s'ha guardat correctament",
+	'notifications:usersettings:save:fail' => "Hi ha hagut un error al guardar la configuraci&oacute; de notificacions",
+	
+	'user.notification.get' => 'Retornar la configuraci&oacute; de notificacions per un/a usuari/a',
+	'user.notification.set' => 'Guardar la configuraci&oacute; de notificacions per un/a usuari/a',
+	
+	
+
+	
+/**
+	* Search
+	*/
+	'search' => "Cercar",
+	'searchtitle' => "Cercar: %s",
+	'users:searchtitle' => "Cercar per usuaris/es: %s",
+	'groups:searchtitle' => "Cercar per grups: %s",
+	'advancedsearchtitle' => "%s amb coincid&egrave;ncies en resultats %s",
+	'notfound' => "No s'han trobat resultats",
+	'next' => "Seg&uuml;ent",
+	'previous' => "Anterior",
+	
+	'viewtype:change' => "Modificar tipus de llista",
+	'viewtype:list' => "Veure llista",
+	'viewtype:gallery' => "Galeria",
+	
+	'tag:search:startblurb' => "&Iacute;tems amb etiquetes que coincideixen amb '%s':",
+	
+	'user:search:startblurb' => "Usuaris/es que coincideixen amb '%s':",
+	'user:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
+	
+	'group:search:startblurb' => "Grups que coincideixen amb '%s':",
+	'group:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
+	'search:go' => 'Anar',
+	'userpicker:only_friends' => 'Nom&eacute;s contactes',
+	
+	
+
+	
+/**
+	* Account
+	*/
+	'account' => "Compte",
+	'settings' => "Configuraci&oacute;",
+	'tools' => "Eines",
+	
+	'register' => "Registrar-se",
+	'registerok' => "T'has registrat correctament per %s",
+	'registerbad' => "No t'has pugut registrar degut a un error desconegut",
+	'registerdisabled' => "El registre s'ha deshabilitat per l'administrador del sistema",
+	
+	'registration:notemail' => "No has ingressat una adreça d'email v&agrave;lida",
+	'registration:userexists' => "El nom d'usuari/a ja existeix",
+	'registration:usernametooshort' => "El nom d'usuari/a ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:passwordtooshort' => "La contrasenya ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:dupeemail' => "Ja es troba registrada la adreça d'email",
+	'registration:invalidchars' => "El teu nom d'usuari/a t&eacute; car&agrave;acters inv&agrave;lids: %s. Aquests s&oacute;n tots els car&agrave;cters que es troban invalidats: %s",
+	'registration:emailnotvalid' => "La adreça d'email que has ingressat &eacute;s inv&agrave;lid al sistema",
+	'registration:passwordnotvalid' => 'La contrasenya que has ingressat es inv&agrave;lid al sistema',
+	'registration:usernamenotvalid' => "El nom d'usuari/a que has ingressat &eacute;s inv&agrave;lid al sistema",
+	
+	'adduser' => "Nou usuari/a",
+	'adduser:ok' => "S'ha enregistrat correctament un nou usuari/a",
+	'adduser:bad' => "No s'ha pogut enregistrar el nou usuari/a",
+	
+	'user:set:name' => "Configuraci&oacute; del nom de compte",
+	'user:name:label' => "El meu nom per a mostrar",
+	'user:name:success' => "S'ha modificat correctament el seu nom a la plataforma",
+	'user:name:fail' => "No s'ha pogut modificar el seu nom a la plataforma. Si us plau, assegura't que no es massa llarg i prova de nou",
+	
+	'user:set:password' => "Contrasenya del compte",
+	'user:current_password:label' => 'Contrasenya actual',
+	'user:password:label' => "Nova contrasenya",
+	'user:password2:label' => "Confirmar nova contrasenya",
+	'user:password:success' => "Contrasenya modificada",
+	'user:password:fail' => "No s'ha pogut modificar la contrasenya a la plataforma",
+	'user:password:fail:notsame' => "Les dues contrasenyes no coincideixen!",
+	'user:password:fail:tooshort' => "La contrasenya &eacute;s massa curta!",
+	'user:password:fail:incorrect_current_password' => "La contrasenya ingressada &eacute;s incorrecta",
+	'user:resetpassword:unknown_user' => "Usuari/a inv&agrave;lid",
+	'user:resetpassword:reset_password_confirm' => "Al modificar la contrasenya rebr&agrave;s la nova a la direcci&oacute; d'email registrada",
+	
+	'user:set:language' => "Configuraci&oacute; de l'idioma",
+	'user:language:label' => "El teu idioma",
+	'user:language:success' => "S'ha actualitzat la teva configuraci&oacute; d'idioma",
+	'user:language:fail' => "No s'ha pogut actualitzar la teva configuraci&oacute; d'idioma",
+	
+	'user:username:notfound' => "No es troba l'usuari/a %s",
+	
+	'user:password:lost' => "He oblidat la meva contrasenya",
+	'user:password:resetreq:success' => "Sol&middot;licitut de nova contrasenya confirmada, se t'ha enviat un email",
+	'user:password:resetreq:fail' => "No s'ha pugut sol&middot;licitar una nova contrasenya",
+	
+	'user:password:text' => "Per a sol&middot;licitar una nova contrasenya ingressa el teu nom d'usuari/a i pressiona el bot&oacute; de sota",
+	
+	'user:persistent' => "Recorda-m'ho",
+	
+	'walled_garden:welcome' => "Benvingut a",
+	
+	
+	
+	
+/**
+	* Administration
+	*/
+	'menu:page:header:administer' => "Administrar",
+	'menu:page:header:configure' => "Configurar",
+	'menu:page:header:develop' => "Desenvolupar",
+	'menu:page:header:default' => "Altres",
+	
+	'admin:view_site' => "Veure lloc web",
+	'admin:loggedin' => "Sessió iniciada com a %s",
+	'admin:menu' => "Menú",
+	
+	'admin:configuration:success' => "S'ha desat la vostra configuració",
+	'admin:configuration:fail' => "No s'ha pogut desar la vostra configuració",
+	
+	'admin:unknown_section' => "La secció d'administració no és vàlida",
+	
+	'admin' => "Administració",
+	'admin:description' => "El tauler d'administració us permet organitzar tots els aspectes del sistema, des de la gestió dels usuaris al comportament de les extensions. Per començar, seleccioneu una opció",
+	
+	'admin:statistics' => "Estadístiques",
+	'admin:statistics:overview' => "Resum",
+	
+	'admin:appearance' => "Aparença",
+	'admin:utilities' => "Utilitats",
+	
+	'admin:users' => "Usuaris",
+	'admin:users:online' => "Connectats",
+	'admin:users:newest' => "El més nou",
+	'admin:users:add' => "Afegir un usuari",
+	'admin:users:description' => "El tauler d'administració us permet gestionar la configuració d'usuaris de la xarxa. Per començar, seleccioneu una opció",
+	'admin:users:adduser:label' => "Premeu per afegir un nou usuari..",
+	'admin:users:opt:linktext' => "Configuració dels usuaris..",
+	'admin:users:opt:description' => "Configuració dels usuaris i informació dels comptes..",
+	'admin:users:find' => "Cercar",
+	
+	'admin:settings' => "Configuració",
+	'admin:settings:basic' => "Configuració Bàsica",
+	'admin:settings:advanced' => "Configuració Avançada",
+	'admin:site:description' => "El tauler d'administració us permet gestionar la configuració global de la xarxa. Per començar, seleccioneu una opció",
+	'admin:site:opt:linktext' => "Configurar el lloc web..",
+	'admin:site:access:warning' => "Les modificacions del control d'accés s'activaran en el proper accés",
+	
+	'admin:dashboard' => "Tauler de control",
+	'admin:widget:online_users' => "Usuaris connectats",
+	'admin:widget:online_users:help' => "Llista d'usuaris connectats a la xarxa",
+	'admin:widget:new_users' => "Nous usuaris",
+	'admin:widget:new_users:help' => "Fes una llista dels usuaris més nous",
+	'admin:widget:content_stats' => "Estadístiques del contingut",
+	'admin:widget:content_stats:help' => "Seguiment del contingut creat pels usuaris de la xarxa",
+	'widget:content_stats:type' => "Tipus de contingut",
+	'widget:content_stats:number' => "Número",
+	
+	'admin:widget:admin_welcome' => "Benvinguts",
+	'admin:widget:admin_welcome:help' => "Aquesta és l'àrea d'administració",
+	'admin:widget:admin_welcome:intro' =>
+"Benvinguts! Us trobeu al tauler de control de l'administració. És una eina útil per a visualitzar les novetats de la xarxa",
+	
+	'admin:widget:admin_welcome:admin_overview' =>
+"La navegació per l'àrea d'administració es troba al menú de la dreta i s'organitza en"
+. " tres seccions:
+	<dl>
+		<dt>Administrar</dt><dd>Tasques diàries com monitoritzar els continguts, verificar els usuaris connectats i visualitzar les estadístiques.</dd>
+		<dt>Configurar</dt><dd>Tasques ocasionals com establir el nom de la xarxa social i activar/desactivar extensions.</dd>
+		<dt>Desenvolupar</dt><dd>Per a desenvolupadors d'extensions i disseny de temes personalitzats. (Necessita l'extensió de desenvolupador.)</dd>
+	</dl>
+	",
+	
+	// argh, this is ugly
+	'admin:widget:admin_welcome:outro' => "<br />Verifiqueu els recursos disponibles als enllaços del peu de pàgina. Gràcies per utilitzar Elgg!",
+	
+	'admin:footer:faq' => "PMFs d'administració",
+	'admin:footer:manual' => "Manual d'Administració",
+	'admin:footer:community_forums' => "Fòrums de la comunitat de l'Elgg",
+	'admin:footer:blog' => "Bloc de l'Elgg",
+	
+	'admin:plugins:category:all' => "Totes les extensions",
+	'admin:plugins:category:active' => "Extensions activades",
+	'admin:plugins:category:inactive' => "Extensions desactivades",
+	'admin:plugins:category:admin' => "Administració",
+	'admin:plugins:category:bundled' => "Inclòs",
+	'admin:plugins:category:content' => "Contingut",
+	'admin:plugins:category:development' => "Desenvolupament",
+	'admin:plugins:category:enhancement' => "Millores",
+	'admin:plugins:category:api' => "Servei/API",
+	'admin:plugins:category:communication' => "Comunicació",
+	'admin:plugins:category:security' => "Seguretat i Spam",
+	'admin:plugins:category:social' => "Social",
+	'admin:plugins:category:multimedia' => "Multimèdia",
+	'admin:plugins:category:theme' => "Temes",
+	'admin:plugins:category:widget' => "Enginys",
+	
+	'admin:plugins:sort:priority' => "Prioritat",
+	'admin:plugins:sort:alpha' => "Alfabètic",
+	'admin:plugins:sort:date' => "Les més noves",
+	
+	'admin:plugins:markdown:unknown_plugin' => "Extensió desconeguda",
+	'admin:plugins:markdown:unknown_file' => "Arxiu desconegut",
+	
+	
+	'admin:notices:could_not_delete' => "No s'ha pogut suprimir la notificació",
+	
+	'admin:options' => "Opcions d'administració",
+	
+	
+	
+	
+/**
+ * Plugins
+ */
+	'plugins:settings:save:ok' => "La configuració de l'extensió %s s'ha desat correctament",
+	'plugins:settings:save:fail' => "S'ha produït un error al desar la configuració de l'extensió %s",
+	'plugins:usersettings:save:ok' => "S'ha desat la configuració de l'usuari per a l'extensió %s",
+	'plugins:usersettings:save:fail' => "S'ha produït un error al desar la configuració de l'usuari per a l'extensió %s",
+	'item:object:plugin' => "Extensions",
+	
+	'admin:plugins' => "Extensions",
+	'admin:plugins:activate_all' => "Activar-les tots",
+	'admin:plugins:deactivate_all' => "Desactivar-les tots",
+	'admin:plugins:activate' => "Activar",
+	'admin:plugins:deactivate' => "Desactivar",
+	'admin:plugins:description' => "El tauler us permet controlar i configurar les eines instal·lades al lloc web",
+	'admin:plugins:opt:linktext' => "Configurar les eines..",
+	'admin:plugins:opt:description' => "Configurar les eines instal·lades al lloc web.",
+	'admin:plugins:label:author' => "Autor",
+	'admin:plugins:label:copyright' => "Copyright",
+	'admin:plugins:label:categories' => "Categories",
+	'admin:plugins:label:licence' => "Llicència",
+	'admin:plugins:label:website' => "URL",
+	'admin:plugins:label:moreinfo' => "més informació",
+	'admin:plugins:label:version' => "Versió",
+	'admin:plugins:label:location' => "Ubicació",
+	'admin:plugins:label:dependencies' => "Dependències",
+	
+	'admin:plugins:warning:elgg_version_unknown' => "L'arxiu de manifest de l'extensió és obsolet i no especifica una versió compatible de l'Elgg. És molt probable que no funcioni!",
+	'admin:plugins:warning:unmet_dependencies' => "L'extensió té dependències desconegudes i no s'activarà. Podeu consultar les dependències a l'apartat de més informació",
+	'admin:plugins:warning:invalid' => "%s no és una extensió vàlida de l'Elgg. Per a solucionar el problema visiteu <a href='http://docs.elgg.org/Invalid_Plugin'>la documentació de l'Elgg</a>",
+	'admin:plugins:cannot_activate' => "no s'ha pogut activar",
+	
+	'admin:plugins:set_priority:yes' => "Tornar a ordenar %s",
+	'admin:plugins:set_priority:no' => "No s'ha pogut tornar a ordenar %s",
+	'admin:plugins:deactivate:yes' => "Desactivar %s",
+	'admin:plugins:deactivate:no' => "No s'ha pogut desactivar %s",
+	'admin:plugins:activate:yes' => "S'ha activat %s",
+	'admin:plugins:activate:no' => "No s'ha pogut activar %s",
+	'admin:plugins:categories:all' => "Totes les categories",
+	'admin:plugins:plugin_website' => "Lloc web de l'extensió",
+	'admin:plugins:author' => "%s",
+	'admin:plugins:version' => "Versió %s",
+	'admin:plugins:simple' => "Simple",
+	'admin:plugins:advanced' => "Avançada",
+	'admin:plugin_settings' => "Configuració de l'extensió",
+	'admin:plugins:simple_simple_fail' => "No s'ha pogut desar la configuració",
+	'admin:plugins:simple_simple_success' => "S'ha desat la configuració",
+	'admin:plugins:simple:cannot_activate' => "No s'ha pogut activar l'extensió. Per a més informació verifiqueu-ne l'àrea d'administració avançada.",
+	'admin:plugins:warning:unmet_dependencies_active' => "L'extensió està activada però disposa de dependències desconegudes. Es poden produir erros en el seu funcionament. Per accedir a informació més detallada aneu a l'apartat \"Més informació\"",
+	
+	'admin:plugins:dependencies:type' => "Tipus",
+	'admin:plugins:dependencies:name' => "Nom",
+	'admin:plugins:dependencies:expected_value' => "Valor de Prova",
+	'admin:plugins:dependencies:local_value' => "Valor Actual",
+	'admin:plugins:dependencies:comment' => "Comentari",
+	
+	'admin:statistics:description' => "És un resum de les estadístiques del lloc web. Si necessiteu estadístiques més avançades podeu accedir-hi a través de la funcionalitat d'administració professional",
+	'admin:statistics:opt:description' => "Veure la informació estadística dels usuaris i els objectes del lloc web",
+	'admin:statistics:opt:linktext' => "Veure les estadístiques..",
+	'admin:statistics:label:basic' => "Estadístiques bàsiques del lloc web",
+	'admin:statistics:label:numentities' => "Entitats del lloc web",
+	'admin:statistics:label:numusers' => "Nombre d'usuaris",
+	'admin:statistics:label:numonline' => "Nombre d'usuaris connectats",
+	'admin:statistics:label:onlineusers' => "Usuaris connectats",
+	'admin:statistics:label:version' => "Versió de l'Elgg",
+	'admin:statistics:label:version:release' => "Release",
+	'admin:statistics:label:version:version' => "Versió",
+	
+	'admin:user:label:search' => "Trobar usuari:",
+	'admin:user:label:searchbutton' => "Cercar",
+	
+	'admin:user:ban:no' => "No s'ha pogut bloquejar l'usuari",
+	'admin:user:ban:yes' => "S'ha bloquejat l'usuari",
+	'admin:user:self:ban:no' => "No us podeu desbloquejar",
+	'admin:user:unban:no' => "No s'ha pogut desbloquejar l'usuari",
+	'admin:user:unban:yes' => "S'ha desbloquejat l'usuari",
+	'admin:user:delete:no' => "No s'ha pogut eliminar l'usuari",
+	'admin:user:delete:yes' => "S'ha eliminat l'usuari %s",
+	'admin:user:self:delete:no' => "No us podeu eliminar",
+	
+	'admin:user:resetpassword:yes' => "S'ha pogut tornar a establir la contrasenya. Es notificarà l'usuari",
+	'admin:user:resetpassword:no' => "No s'ha pogut tornar a establir la contrasenya",
+	
+	'admin:user:makeadmin:yes' => "L'usuari és administrador",
+	'admin:user:makeadmin:no' => "No s'ha pogut establir l'usuari com a administrador",
+	
+	'admin:user:removeadmin:yes' => "L'usuari ja no és administrador",
+	'admin:user:removeadmin:no' => "No podeu treure els drets d'administrador a l'usuari",
+	'admin:user:self:removeadmin:no' => "No podeu suprimir els drets d'administrador",
+	
+	'admin:appearance:menu_items' => "Elements del menú",
+	'admin:menu_items:configure' => "Configurar els elements del menú principal",
+	'admin:menu_items:description' => "Seleccioneu els elements del menú que voleu mostrar com a enllaços preferits. Els elements no seleccionats seran accessibles a través de l'element \"Més\" situat al final de la llista",
+	'admin:menu_items:hide_toolbar_entries' => "Voleu treure els enllaços del menú de la barra d'eines ?",
+	'admin:menu_items:saved' => "Elements del menú desats",
+	'admin:add_menu_item' => "Afegir un element del menú personalitzat",
+	'admin:add_menu_item:description' => "Per agregar un element al menú personalitzat introduïu el nom que es visualitzarà i la direcció URL associada",
+	
+	'admin:appearance:default_widgets' => "Enginys predeterminats",
+	'admin:default_widgets:unknown_type' => "El tipus d'enginy és desconegut",
+	'admin:default_widgets:instructions' => "Afegir, treure, noure i configurar els enginys predeterminats a la pàgina d'enginys seleccionada"
+	. " Els canvis només s'aplicaran als nous usuaris",
+	
+	
+	
+	
+/**
+ * User settings
+ */
+	'usersettings:description' => "El tauler de configuració us permet parametritzar les vostres preferències personals, des de l'administració d'usuaris al comportament de les extensions. Per a començar, seleccioneu una opció",
+	
+	'usersettings:statistics' => "Les vostres estadístiques",
+	'usersettings:statistics:opt:description' => "Veure la informació estadística dels usuaris i objectes de la xarxa",
+	'usersettings:statistics:opt:linktext' => "Estadístiques del compte",
+	
+	'usersettings:user' => "Les vostres preferències",
+	'usersettings:user:opt:description' => "Aquesta funcionalitat us permet definir les vostres preferències",
+	'usersettings:user:opt:linktext' => "Modificar les vostres preferències",
+	
+	'usersettings:plugins' => "Eines",
+	'usersettings:plugins:opt:description' => "Preferències de configuració de les vostres eines actives",
+	'usersettings:plugins:opt:linktext' => "Configureu les vostres eines",
+	
+	'usersettings:plugins:description' => "El tauler us permet definir les preferències personals de les eines habilitades per l'administrador del sistema",
+	'usersettings:statistics:label:numentities' => "El contingut",
+	
+	'usersettings:statistics:yourdetails' => "La vostra informació detallada",
+	'usersettings:statistics:label:name' => "Nom complet",
+	'usersettings:statistics:label:email' => "Adreça de correu electrònic",
+	'usersettings:statistics:label:membersince' => "Membre des de",
+	'usersettings:statistics:label:lastlogin' => "Últim accés",
+	
+
+
+
+/**
+ * Activity river
+ */
+  'river:all' => "Activitat de tota la xarxa",
+	'river:mine' => "La meva activitat",
+	'river:friends' => "L'activitat dels meus amics",
+	'river:select' => "Mostrar %s",
+	'river:comments:more' => "+%u més",
+	'river:generic_comment' => "comentat a %s %s",
+	
+	'friends:widget:description' => "Mostra alguns dels vostres amics",
+	'friends:num_display' => "Quantitat d'amics a mostrar",
+	'friends:icon_size' => "Mida de la icona",
+	'friends:tiny' => "molt petita",
+	'friends:small' => "petita",
+	
+
+
+
+/**
+ * Generic action words
+ */
+	'save' => "Guardar",
+	'reset' => "Reiniciar",
+	'publish' => "Publicar",
+	'cancel' => "Cancel·lar",
+	'saving' => "Desant..",
+	'update' => "Actualitzar",
+	'preview' => "Previsualitzar",
+	'edit' => "Editar",
+	'delete' => "Eliminar",
+	'accept' => "Acceptar",
+	'load' => "Carregar",
+	'upload' => "Pujar",
+	'ban' => "Bloquejar",
+	'unban' => "Desbloquejar",
+	'banned' => "Bloquejat",
+	'enable' => "Habilitar",
+	'disable' => "Inhabilitar",
+	'request' => "Sol·licitud",
+	'complete' => "Completa",
+	'open' => "Obrir",
+	'close' => "Tancar",
+	'reply' => "Respondre",
+	'more' => "Més",
+	'comments' => "Comentaris",
+	'import' => "Importar",
+	'export' => "Exportar",
+	'untitled' => "Sense Títol",
+	'help' => "Ajuda",
+	'send' => "Enviar",
+	'post' => "Publicar",
+	'submit' => "Enviar",
+	'comment' => "Comentar",
+	'upgrade' => "Actualitzar",
+	'sort' => "Ordenar",
+	'filter' => "Filtrar",
+	
+	'site' => "Lloc web",
+	'activity' => "Activitat",
+	'members' => "Membres",
+	
+	'up' => "Amunt",
+	'down' => "Avall",
+	'top' => "Primer",
+	'bottom' => "Últim",
+	
+	'more' => "més",
+	
+	'invite' => "Convidat",
+	
+	'resetpassword' => "Tornar a establir la contrassenya",
+	'makeadmin' => "Afegir un administrador",
+	'removeadmin' => "Suprimir l'administrador",
+	
+	'option:yes' => "Sí",
+	'option:no' => "No",
+	
+	'unknown' => "Desconegut",
+	
+	'active' => "Actiu",
+	'total' => "Total",
+	
+	'learnmore' => "Premeu per a veure més",
+	
+	'content' => "contingut",
+	'content:latest' => "Última activitat",
+	'content:latest:blurb' => "Premeu alternativament per veure el contingut actualitzat de la xarxa.",
+	
+	'link:text' => "veure l'enllaç",
+	
+
+	
+	
+/**
+	* Generic questions
+	*/
+	'question:areyousure' => "N'esteu segur?",
+
+	
+	
+	
+/**
+	* Generic data words
+	*/
+	'title' => "Títol",
+	'description' => "Descripció",
+	'tags' => "Etiquetes",
+	'spotlight' => "Enfocament",
+	'all' => "Tots",
+	'mine' => "Meu",
+	
+	'by' => "per",
+	'none' => "res",
+	
+	'annotations' => "Anotacions",
+	'relationships' => "Relacions",
+	'metadata' => "Metadades",
+	'tagcloud' => "Núvol d'etiquetes",
+	'tagcloud:allsitetags' => "Etiquetes de tot el lloc web",
+	
+	
+
+
+/**
+	* Entity actions
+	*/
+	'edit:this' => "Editar",
+	'delete:this' => "Suprimir",
+	'comment:this' => "Comentar",
+
+	
+	
+	
+/**
+	* Input / output strings
+	*/
+	'deleteconfirm' => "Segur que voleu suprimir l'element ?",
+	'fileexists' => "S'ha penjat l'arxiu. Per a substituir-lo, seleccioneu:",	
+	
+	
+	
+	
+/**
+	* User add
+	*/
+	'useradd:subject' => "S'ha creat el compte d'usuari",
+	'useradd:body' => "
+%s,
+	
+S'ha creat el vostre compte d'usuari a %s. Per iniciar una sessió visiteu:
+	
+%s
+
+i inicieu la sessió amb les credencials següents:
+	
+Nom d'usuari: %s
+contrasenya: %s
+	
+Us recomanem que modifiqueu la vista contrasenya un cop autenticats.
+",
+	
+	
+	
+	
+/**
+	* System messages
+	**/
+	'systemmessages:dismiss' => "Premeu-lo per tancar",
+
+	
+	
+	
+/**
+	* Import / export
+	*/
+	'importsuccess' => "La importació s'ha realitzat correctament",
+	'importfail' => "S'ha produït un error en la importació de dades de l'OpenDD",
+	
+	
+	
+	
+/**
+	* Time
+	*/
+	'friendlytime:justnow' => "ara",
+	'friendlytime:minutes' => "fa %s minuts",
+	'friendlytime:minutes:singular' => "fa un minut",
+	'friendlytime:hours' => "fa %s hores",
+	'friendlytime:hours:singular' => "fa una hora",
+	'friendlytime:days' => "fa %s dies",
+	'friendlytime:days:singular' => "ahir",
+	'friendlytime:date_format' => "j F Y @ g:ia",
+	
+	'date:month:01' => "Gener %s",
+	'date:month:02' => "Febrer %s",
+	'date:month:03' => "Març %s",
+	'date:month:04' => "Abril %s",
+	'date:month:05' => "Maig %s",
+	'date:month:06' => "Juny %s",
+	'date:month:07' => "Juliol %s",
+	'date:month:08' => "Agost %s",
+	'date:month:09' => "Setembre %s",
+	'date:month:10' => "Octubre %s",
+	'date:month:11' => "Novembre %s",
+	'date:month:12' => "Desembre %s",
+	
+	
+	
+	
+/**
+	* System settings
+	*/
+	'installation:sitename' => "El nom del lloc web:",
+	'installation:sitedescription' => "Breu descripció del lloc web (opcional):",
+	'installation:wwwroot' => "URL del lloc web:",
+	'installation:path' => "El camí sencer a la instal·lació de l'Elgg:",
+	'installation:dataroot' => "El camí sencer al directori de dades:",
+	'installation:dataroot:warning' => "El directori s'ha de crear manualment. El directori ha d'estar en un directori diferent al de la instal·lació de l'Elgg",
+	'installation:sitepermissions' => "Permisos d'accés predeterminats:",
+	'installation:language' => "Idioma predeterminat:",
+	'installation:debug' => "El mode Depuració ofereix informació extra que es pot utilitzar per avaluar incidències. L'activació del mode pot disminuir la velocitat de funcionament del sistema i només s'ha d'utilitzar quan es detectin problemes:",
+	'installation:debug:none' => "Inhabilitar el mode Depuració (recomanat)",
+	'installation:debug:error' => "Mostrar només els errors crítics",
+	'installation:debug:warning' => "Mostrar només les alertes crítiques",
+	'installation:debug:notice' => "Mostrar tots els errors, alertes i informació d'incidències",
+	
+	// Walled Garden support
+	'installation:registration:description' => "El registre està activitat per defecte. Podeu desactivar l'opció per evitar que els usuaris es puguin registrar",
+	'installation:registration:label' => "Habilitar el registre de nous usuaris",
+	'installation:walled_garden:description' => "Habilitar l'execució del lloc web en una xarxa privada. L'opció impedeix la visualització de qualsevol pàgina no pública als usuaris no registrats",
+	'installation:walled_garden:label' => "Restringir l'accés a les pàgines a usuaris registrats",
+	
+	'installation:httpslogin' => "Habiliteu l'opció per forçar l'autenticació HTTPS. Perquè funcioni també caldrà que habiliteu l'autenticació HTTPS al servidor",
+	'installation:httpslogin:label' => "Habilitar l'autenticació HTTPS",
+	'installation:view' => "Introduïu la vista predeterminada del lloc web o deixeu-ho en blanc per utilitzar la vista predeterminada (en cas de dubte deixeu la predeterminada):",
+	
+	'installation:siteemail' => "Adreça de correu electrònic del lloc web (s'utilitza per enviar correus electrònics del sistema):",
+	
+	'installation:disableapi' => "L'Elgg disposa d'una API per al desenvolupament de serveis web que permet que aplicacions remotes puguin interactuar amb el lloc web",
+	'installation:disableapi:label' => "Habilitar la API de serveis web de l'Elgg",
+	
+	'installation:allow_user_default_access:description' => "Permet que els usuaris puguin establir el seu propi nivell d'accés predeterminat. Permet sobreescriure els nivell d'accés del sistema",
+	'installation:allow_user_default_access:label' => "Habilitar l'accés predeterminat dels usuaris",
+	
+	'installation:simplecache:description' => "La memòria cau simple augmenta el rendiment en l'emmagatzematge de contingut estàtic com poden ser fulls  CSS i arxius JavaScript. En la majoria dels casos la funció està activada",
+	'installation:simplecache:label' => "Utilitzar la memòria cau simple (recomanat)",
+	
+	'installation:viewpathcache:description' => "La memòria cau de camins de les vistes redueix els temps de càrrega de les extensions guardant la ubicació dels arxius",
+	'installation:viewpathcache:label' => "Utilitzar la memòria cau de camins de les vistes (recomanat)",
+	
+	'upgrading' => "S'està actualitzant..",
+	'upgrade:db' => "S'ha actualitzat la base de dades",
+	'upgrade:core' => "S'ha actualitzat la instal·lació de l'Elgg",
+	'upgrade:unable_to_upgrade' => "No s'ha pogut actualitzar",
+	'upgrade:unable_to_upgrade_info' =>
+	"La instal·lació no es pot actualitzar perquè s'han detectat vistes velles al directori de vistes
+	del nucli de l'Elgg. Aquestes vistes estan obsoletes i s'han de suprimir per assegurar que l'Elgg funciona
+	correctament. Si no heu realitzat modificacions de l'Elgg podeu suprimir el directori de vistes i
+	reemplaçar-lo amb l'últim del paquet d'instal·lació de l'Elgg disponible a <a href='http://elgg.org'>elgg.org</a>.<br /><br />
+	
+	
+	Si necessiteu instruccions detallades visiteu la <a href='http://docs.elgg.org/wiki/Upgrading_Elgg'>
+	Documentació d'actualització de l'Elgg</a>. Si necessiteu ajuda visiteu els
+	<a href='http://community.elgg.org/pg/groups/discussion/'>Fòrums de suport a la comunitat</a>",
+		
+	'update:twitter_api:deactivated' => "Durant l'actualització s'ha desactivat l'API de Twitter (anteriorment Twitter Service). Si la voleu utilitzar activeu-la manualment",
+	'update:oauth_api:deactivated' => "Durant l'actualització s'ha desactivat l'API OAuth (anteriorment OAuth Lib). Si la voleu utilitzar activeu-la manualment",
+	
+	'deprecated:function' => "%s() ha quedat obsoleta per %s()",
+	
+	
+	
+	
+/**
+	* Welcome
+	*/
+	'welcome' => "Benvingut/da",
+	'welcome:user' => "Benvingut/da %s",
+	
+	
+	
+	
+/**
+	* Emails
+	*/
+	'email:settings' => "Configuració del correu electrònic",
+	'email:address:label' => "Adreça del correu electrònic",
+	
+	'email:save:success' => "S'ha desat la nova adreça de correu electrònic. S'ha sol·licitat la seva verificació",
+	'email:save:fail' => "No s'ha pogut desar la nova adreça de correu electrònic",
+	
+	'friend:newfriend:subject' => "%s t'ha afegit a la seva llista de contactes!",
+	'friend:newfriend:body' => "%s t'ha afegit a la seva llista de contactes!
+	
+	Per visualitzar el seu perfil premeu:
+	
+%s
+
+Siusplau, no respongueu a aquest correu electrònic",
+	
+	
+	
+	'email:resetpassword:subject' => "S'ha restablert la contrasenya!",
+	'email:resetpassword:body' => "Hola %s,
+	
+S'ha restablert la vostra contrasenya: %s",
+	
+	
+	'email:resetreq:subject' => "Sol·licitud de nova contrasenya",
+	'email:resetreq:body' => "Hola %s,
+
+Algú (des de l'adreça IP %s) ha sol·licitat una nova contrasenya pel vostre compte.
+	
+Si heu fet la sol·licitud premeu l'enllaç de sota. En cas contrari, ignoreu aquest correu electrònic.
+	
+%s
+",
+	
+	
+	
+	
+/**
+	* user default access
+	*/
+	'default_access:settings' => "El vostre nivell d'accés predeterminat",
+	'default_access:label' => "Nivell d'accés predeterminat",
+	'user:default_access:success' => "S'ha desat el nivell d'accés predeterminat",
+	'user:default_access:failure' => "No s'ha pogut desar el nivell d'accés predeterminat",
+	
+	
+	
+	
+/**
+	* XML-RPC
+	*/
+	'xmlrpc:noinputdata' => "Dades pendents",
+	
+	
+	
+	
+/**
+	* Comments
+	*/
+	'comments:count' => "%s comentaris",
+	
+	'riveraction:annotation:generic_comment' => "%s ha comentat a %s",
+	
+	'generic_comments:add' => "Comentar",
+	'generic_comments:post' => "Publicar un comentari",
+	'generic_comments:text' => "Comentar",
+	'generic_comments:latest' => "Últims comentaris",
+	'generic_comment:posted' => "S'ha publicat el vostre comentari",
+	'generic_comment:deleted' => "S'ha suprimit el vostre comentari",
+	'generic_comment:blank' => "Heu d'introduir un comentari abans de poder desar-lo",
+	'generic_comment:notfound' => "No s'ha pogut trobar l'element indicat",
+	'generic_comment:notdeleted' => "No s'ha pogut suprimir el comentari",
+	'generic_comment:failure' => "S'ha produït un error a l'intentar afegir el vostre comentari. Torneu-ho a intentar",
+	'generic_comment:none' => "Sense comentaris",
+	
+	'generic_comment:email:subject' => "Teniu un comentari nou!",
+	'generic_comment:email:body' => "Teniu un comentari nou a \"%s\" de %s. Diu:
+	
+	
+%s
+	
+	
+Per respondre o veure l'original, premeu:
+	
+%s
+	
+Per veure el perfil de %s, premeu:
+	
+%s
+	
+Siusplau, no respongueu a aquest correu",
+	
+	
+	
+	
+/**
+	* Entities
+	*/
+	'byline' => "Per %s",
+	'entity:default:strapline' => "Creat %s per %s",
+	'entity:default:missingsupport:popup' => "L'entitat no s'ha pogut mostrar correctament. Es pot deure a que el suport que ofereix una extensió ja no estigui instal·lat al sistema",
+	
+	'entity:delete:success' => "S'ha suprimit l'entitat %s",
+	'entity:delete:fail' => "No s'ha pogut suprimir l'entitat %s",
+	
+	
+	
+	
+/**
+	* Action gatekeeper
+	*/
+	'actiongatekeeper:missingfields' => "Falten camps _token o camps _ts",
+	'actiongatekeeper:tokeninvalid' => "S'ha trobat un error (el token no coincideix). Probablement es degui al venciment de la pàgina. Torneu-ho a intentar",
+	'actiongatekeeper:timeerror' => "La pàgina que estàveu utilitzant ha vençut. Actualitzeu-la i torneu-ho a intentar",
+	'actiongatekeeper:pluginprevents' => "El formulari no s'ha enviat perquè una extensió no ho ha autoritzat",
+	
+	
+	
+	
+/**
+	* Word blacklists
+	*/
+	'word:blacklist' => "and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever",
+	
+	
+	
+	
+/**
+	* Tag labels
+	*/
+	'tag_names:tags' => "Etiquetes",
+	'tags:site_cloud' => "Núvol d'etiquetes del lloc web",
+	
+	
+	
+	
+/**
+	* Javascript
+	*/
+	'js:security:token_refresh_failed' => "No s'ha pogut restaurar la connexió amb %s. Es poden produir problemes al desar continguts al lloc web",
+	'js:security:token_refreshed' => "S'ha restaurat la connexió amb %s!",	
+	
+	
+	
+
+/**
+ * Languages according to ISO 639-1
+ */
 	 'aa'  =>  "Afar" , 
 	 'ab'  =>  "Abkhazià" , 
 	 'af'  =>  "Afrikaans" , 

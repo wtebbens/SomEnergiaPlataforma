@@ -271,7 +271,7 @@ $spanish = array(
 	'PRIVATE' => "Privado",
 	'LOGGED_IN' => "Usuarios logueados",
 	'PUBLIC' => 'Todos',
-	'access:friends:label' => "Amigos",
+	'access:friends:label' => "Contactos",
 	'access' => "Acceso",
 
 	
