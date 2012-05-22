@@ -1,73 +1,107 @@
 <?php
-
-// Generat per la traducció del navegador 
+/**
+ * Elgg file plugin language pack
+ *
+ * @package ElggFile
+ */
 
 $catalan = array( 
-	 'file'  =>  "Arxius" , 
-	 'files'  =>  "Arxius" , 
-	 'file:yours'  =>  "Els teus arxius" , 
-	 'file:yours:friends'  =>  "Els arxius de les teves amistats" , 
-	 'file:user'  =>  "%s's arxius" , 
-	 'file:friends'  =>  "%s's arxius de les teves amistats" , 
-	 'file:all'  =>  "Tots els arxius" , 
-	 'file:edit'  =>  "Editar l'arxiu" , 
-	 'file:list'  =>  "Vista en llista" , 
-	 'file:gallery'  =>  "Vista en galeria" , 
-	 'file:gallery_list'  =>  "Vista com a galeria o com a llista" , 
-	 'file:num_files'  =>  "Nombre d'arxius a la pantalla" , 
-	 'file:user:gallery'  =>  "Veure %s galeria" , 
-	 'file:via'  =>  "a través dels arxius" , 
-	 'file:upload'  =>  "Puja un arxiu" , 
-	 'file:replace'  =>  "Reemplaça el contingut de l'arxiu (deixa-ho en blanc sinó el canvies)" , 
-	 'file:group'  =>  "Arxius del grup" , 
-	 'groups:enablefiles'  =>  "Impossible arxius de grups" , 
-	 'file:newupload'  =>  "Nou arxiu pujat" , 
-	 'file:more'  =>  "Més arxius" , 
-	 'file:nogroup'  =>  "Aquest grup encara no té arxius" , 
-	 'file:file'  =>  "Arxius" , 
-	 'file:title'  =>  "Títol" , 
-	 'file:desc'  =>  "Descripció" , 
-	 'file:tags'  =>  "Etiquetes" , 
-	 'file:types'  =>  "Pujat els tipus d'arxiu" , 
-	 'file:type:all'  =>  "Tots els arxius" , 
-	 'file:type:video'  =>  "Vídeos" , 
-	 'file:type:document'  =>  "Documents" , 
-	 'file:type:audio'  =>  "Audio" , 
-	 'file:type:image'  =>  "Imatges" , 
-	 'file:type:general'  =>  "General" , 
-	 'file:user:type:video'  =>  "%s's vídeos" , 
-	 'file:user:type:document'  =>  "%s's documents" , 
-	 'file:user:type:audio'  =>  "%s's audio" , 
-	 'file:user:type:image'  =>  "%s's imatges" , 
-	 'file:user:type:general'  =>  "%s's arxius generals" , 
-	 'file:friends:type:video'  =>  "Els vídeos de les teves amistats" , 
-	 'file:friends:type:document'  =>  "Els documents de les teves amistats" , 
-	 'file:friends:type:audio'  =>  "Els audios de les teves amistats" , 
-	 'file:friends:type:image'  =>  "Les imatges de les teves amistats" , 
-	 'file:friends:type:general'  =>  "Els arxius generals de les teves amistats" , 
-	 'file:widget'  =>  "Arxiu del widget" , 
-	 'file:widget:description'  =>  "Mostra els teus últims arxius" , 
-	 'file:download'  =>  "Descarrega't això" , 
-	 'file:delete:confirm'  =>  "Estàs segur/a que vols eliminar aquest arxiu?" , 
-	 'file:tagcloud'  =>  "núvol d'etiquetes" , 
-	 'file:display:number'  =>  "Nombre d'arxius per veure a la pantalla" , 
-	 'file:river:created'  =>  "%s pujat" , 
-	 'file:river:item'  =>  "un axiu" , 
-	 'file:river:annotate'  =>  "un comentari sobre aquest arxiu" , 
-	 'item:object:file'  =>  "Arxius" , 
-	 'file:embed'  =>  "Integrar mitjans de comunicació" , 
-	 'file:embedall'  =>  "Tots/es" , 
-	 'file:saved'  =>  "El teu arxiu s'ha desat correctament." , 
-	 'file:deleted'  =>  "El teu arxiu s'ha eliminat correctament." , 
-	 'file:uploadfailed'  =>  "No hem pogut desar el teu arxiu." , 
-	 'file:downloadfailed'  =>  "Ho lamentem. No és possible pujar aquest arxiu en aquests moments" , 
-	 'file:deletefailed'  =>  "No és possible eliminar el teu arxiu en aquests moments." , 
-	 'file:noaccess'  =>  "No tens permís per modificar aquest arxiu" , 
-	 'file:cannotload'  =>  "Hi ha hagut un error alhora de carregar aquest arxiu" , 
-	 'file:nofile'  =>  "Has de seleccionar un arxiu" , 
-	 'file:none'  =>  "No hi ha arxius pujats."
+		
+   /**
+    * Menu items and titles
+    */
+   'file' => "Fitxers",
+   'file:user' => "Els fitxers de %s",
+   'file:friends' => "Els fitxers dels amics",
+   'file:all' => "Tots els fitxers del lloc web",
+   'file:edit' => "Editar el fitxer",
+   'file:more' => "Més fitxers",
+   'file:list' => "visualització en format de llista",
+   'file:group' => "Fitxers del grup",
+   'file:gallery' => "visualització en format de galeria",
+   'file:gallery_list' => "Visualització en format de galeria o llista",
+   'file:num_files' => "Nombre de fitxers a visualitzar",
+   'file:user:gallery'=> "Visualitzar la galeria de %s",
+   'file:via' => "via files",
+   'file:upload' => "Pujar un fitxer",
+   'file:replace' => "Reemplaçar el contingut del fitxer (per mantenir el mateix fitxer deixeu-ho en blanc)",
+   'file:list:title' => "%s %s %s",
+   'file:title:friends' => "Contactes",
+
+   'file:add' => "Pujar un fitxer",
+
+   'file:file' => "Fitxer",
+   'file:title' => "Títol",
+   'file:desc' => "Descripció",
+   'file:tags' => "Etiquetes",
+
+   'file:list:list' => "Canviar la visualització a format llista",
+   'file:list:gallery' => "Canviar la visualització a format de galeria",
+
+   'file:types' => "Tipus dels fitxers pujats",
+
+   'file:type:' => "Fitxers",
+   'file:type:all' => "Tots els fitxers",
+   'file:type:video' => "Vídeos",
+   'file:type:document' => "Documents",
+   'file:type:audio' => "Música",
+   'file:type:image' => "Imatges",
+   'file:type:general' => "General",
+
+   'file:user:type:video' => "Els vídeos de %s",
+   'file:user:type:document' => "Els documents de %s",
+   'file:user:type:audio' => "La música de %s",
+   'file:user:type:image' => "Les imatges de %s",
+   'file:user:type:general' => "Els fitxers de %s",
+
+   'file:friends:type:video' => "Els vídeos dels vostres amics",
+   'file:friends:type:document' => "Els documents dels vostres amics",
+   'file:friends:type:audio' => "La música dels vostres amics",
+   'file:friends:type:image' => "Les imatges dels vostres amics",
+   'file:friends:type:general' => "Els fitxers dels vostres amics",
+
+   'file:widget' => "Enginy de gestió de fitxers",
+   'file:widget:description' => "Mostra els últims fitxers",
+
+   'groups:enablefiles' => "Habilita l'accés als fitxers del grup",
+
+   'file:download' => "Descarrega-ho",
+
+   'file:delete:confirm' => "Voleu suprimir el fitxer?",
+
+   'file:tagcloud' => "Núvol d'etiquetes",
+
+   'file:display:number' => "Nombre de fitxers a pujar",
+
+   'river:create:object:file' => "%s ha pujat el fitxer %s",
+   'river:comment:object:file' => "%s ha comentat el fitxer %s",
+
+   'item:object:file' => "Fitxers",
+
+   'file:newupload' => "S'ha pujat un nou fitxer",
+
+   /**
+    * Embed media
+    **/
+		'file:embed' => "Suports incrustats",
+   	'file:embedall' => "Tots",
+
+   /**
+    * Status messages
+    */
+    'file:saved' => "S'ha desat el fitxer.",
+    'file:deleted' => "S'ha suprimit el fitxer.",
+
+   /**
+    * Error messages
+    */
+		'file:none' => "Sense fitxers.",
+    'file:uploadfailed' => "No s'ha pogut desar el fitxer.",
+    'file:downloadfailed' => "El fitxer no està disponible.",
+    'file:deletefailed' => "No s'ha suprimit el fitxer.",
+    'file:noaccess' => "No teniu els permisos d'accés necessaris per a modificar el fitxer",
+    'file:cannotload' => "S'ha produït un error pujant el fitxer",
+    'file:nofile' => "Heu de seleccionar un fitxer"
 ); 
 
 add_translation('ca', $catalan); 
-
-?>
