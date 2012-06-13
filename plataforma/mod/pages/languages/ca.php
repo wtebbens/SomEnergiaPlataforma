@@ -1,64 +1,104 @@
 <?php
+/**
+ * Pages languages
+ *
+ * @package ElggPages
+ */
 
-// Generat per la traducció del navegador 
+$english = array(
 
-$catalan = array( 
-	 'pages'  =>  "Pàgines" , 
-	 'pages:yours'  =>  "Les teves pàgines" , 
-	 'pages:user'  =>  "Casa" , 
-	 'pages:group'  =>  "Pàgines del grup" , 
-	 'pages:all'  =>  "Totes les pàgines" , 
-	 'pages:new'  =>  "Nova pàgina" , 
-	 'pages:groupprofile'  =>  "Pàgines del grup" , 
-	 'pages:edit'  =>  "Edita aquesta pàgina" , 
-	 'pages:delete'  =>  "Elimina aquesta pàgina" , 
-	 'pages:history'  =>  "Historial de la pàgina" , 
-	 'pages:view'  =>  "Vista de la pàgina" , 
-	 'pages:welcome'  =>  "Edita el missatge de benvinguda" , 
-	 'pages:welcomemessage'  =>  "Benvinguda o benvingut a la pàgina d'eines de %s. Aquesta eina permet crear pàgines amb qualsevol tema i seleccionar qui pot veure-les i editar-les" , 
-	 'pages:welcomeerror'  =>  "Ha hagut un problema alhora de desar el teu missatge de benvinguda" , 
-	 'pages:welcomeposted'  =>  "El teu missatge de benvinguda s'ha desat correctament" , 
-	 'pages:navigation'  =>  "Pàgines de navegació" , 
-	 'pages:via'  =>  "via de pàgines" , 
-	 'item:object:page_top'  =>  "Pàgines més importants" , 
-	 'item:object:page'  =>  "Pàgines" , 
-	 'item:object:pages_welcome'  =>  "Benvinguda a la pàgina bloquejada" , 
-	 'pages:nogroup'  =>  "Aquest grup encara no té cap pàgina" , 
-	 'pages:more'  =>  "Més pàgines" , 
-	 'pages:river:annotate'  =>  "Un comentari en aquesta pàgina" , 
-	 'pages:river:created'  =>  "%s escrit" , 
-	 'pages:river:updated'  =>  "%s pujat" , 
-	 'pages:river:posted'  =>  "%s desats" , 
-	 'pages:river:create'  =>  "un nou títol de pàgina" , 
-	 'pages:river:update'  =>  "una pàgina titulada" , 
-	 'page:river:annotate'  =>  "un comentari en aquesta pàgina" , 
-	 'page_top:river:annotate'  =>  "un comentari en aquesta pàgina" , 
-	 'pages:title'  =>  "Títol de pàgina" , 
-	 'pages:description'  =>  "El teu accés a la pàgina" , 
-	 'pages:tags'  =>  "Etiquetes" , 
-	 'pages:access_id'  =>  "Accés" , 
-	 'pages:write_access_id'  =>  "Escriu l'accés" , 
-	 'pages:noaccess'  =>  "No tens accés a la pàgina" , 
-	 'pages:cantedit'  =>  "No pots editar aquesta pàgina" , 
-	 'pages:saved'  =>  "Pàgina desada correctament" , 
-	 'pages:notsaved'  =>  "No s'ha desat la pàgina correctament" , 
-	 'pages:notitle'  =>  "Has d'especificar el títol de la teva pàgina." , 
-	 'pages:delete:success'  =>  "La pàgina s'ha eliminat correctament" , 
-	 'pages:delete:failure'  =>  "Aquesta pàgina no es pot eliminar" , 
-	 'pages:strapline'  =>  "La darrera actualització %s feta per %s" , 
-	 'pages:revision'  =>  "Modificació feta %s per %s" , 
-	 'pages:num'  =>  "Nombre de pàgines per veure a la pantalla" , 
-	 'pages:widget:description'  =>  "Aquesta és una llista de les teves pàgines." , 
-	 'pages:label:view'  =>  "Veure pàgines" , 
-	 'pages:label:edit'  =>  "Editar pàgines" , 
-	 'pages:label:history'  =>  "Historial de pàgines" , 
-	 'pages:sidebar:this'  =>  "Aquesta pàgina" , 
-	 'pages:sidebar:children'  =>  "Sub-pàgines" , 
-	 'pages:sidebar:parent'  =>  "Mares" , 
-	 'pages:newchild'  =>  "Crear una sub-pàgina" , 
-	 'pages:backtoparent'  =>  "Tornar a '%s'"
-); 
+    /**
+     * Menu items and titles
+     */
+
+    'pages' => "Pàgines",
+    'pages:owner' => "les pàgines de %s",
+    'pages:friends' => "Les pàgines dels vostres amics",
+    'pages:all' => "Totes les pàgines del lloc web",
+    'pages:add' => "Afegir un pàgina",
+
+    'pages:group' => "Les pàgines del grup",
+    'groups:enablepages' => "Habilitar les pàgines del grup",
+
+    'pages:edit' => "Editar la pàgina",
+    'pages:delete' => "Suprimir la pàgina",
+    'pages:history' => "Historial",
+    'pages:view' => "Visualitzar la pàgina",
+    'pages:revision' => "Revisió",
+
+    'pages:navigation' => "Navegació",
+    'pages:via' => "via pàgines",
+    'item:object:page_top' => "Pàgines del nivell superior",
+    'item:object:page' => "Pàgines",
+    'pages:nogroup' => "Aquest grup no té pàgines",
+    'pages:more' => "Més pàgines",
+    'pages:none' => "Encara no s'ha creat cap pàgina",
+
+    /**
+    * River
+    **/
+
+    'river:create:object:page' => "%s ha creat la pàgina %s",
+    'river:create:object:page_top' => "%s ha creat la pàgina %s",
+    'river:update:object:page' => "%s ha actualitzat la pàgina %s",
+    'river:update:object:page_top' => "%s ha actualitzat la pàgina %s",
+    'river:comment:object:page' => "%s ha afegit un comentari a la pàgina %s",
+    'river:comment:object:page_top' => "%s ha afegit un comentari a la pàgina %s",
+
+    /**
+     * Form fields
+     */
+
+    'pages:title' => "Títol de la pàgina",
+    'pages:description' => "Text de la pàgina",
+    'pages:tags' => "Etiquetes",
+    'pages:access_id' => "Permís de lectura",
+    'pages:write_access_id' => "Permís d'escriptura",
+
+    /**
+     * Status and error messages
+     */
+    'pages:noaccess' => "No teniu accés a la pàgina",
+    'pages:cantedit' => "No podeu editar la pàgina",
+    'pages:saved' => "S'ha desat la pàgina",
+    'pages:notsaved' => "No s'ha pogut desar la pàgina",
+    'pages:error:no_title' => "Heu d'especificar el títol de la pàgina.",
+    'pages:delete:success' => "S'ha suprimit la pàgina.",
+    'pages:delete:failure' => "No s'ha suprimit la pàgina.",
+
+    /**
+     * Page
+     */
+    'pages:strapline' => "Ultima actualització de %s per %s",
+
+    /**
+     * History
+     */
+    'pages:revision:subtitle' => "Revisió creada de %s per %s",
+
+    /**
+     * Widget
+     **/
+
+    'pages:num' => "Nombre de pàgines a visualitzar",
+    'pages:widget:description' => "És una llista de les vostres pàgines.",
+
+    /**
+     * Submenu items
+     */
+    'pages:label:view' => "Visualitzar la pàgina",
+    'pages:label:edit' => "Editar la pàgina",
+    'pages:label:history' => "Historial de la pàgina",
+
+    /**
+     * Sidebar items
+     */
+    'pages:sidebar:this' => "Aquesta pàgina",
+    'pages:sidebar:children' => "Pàgina filla",
+    'pages:sidebar:parent' => "Pàgina pare",
+
+    'pages:newchild' => "Crear una pàgina filla",
+    'pages:backtoparent' => "Tornar a '%s'",
+);
 
 add_translation('ca', $catalan); 
-
-?>

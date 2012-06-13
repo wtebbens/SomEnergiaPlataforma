@@ -10,6 +10,7 @@ $spanish = array(
 	/**
 	 * Menu items and titles
 	 */
+		
 	'pages' => "P&aacute;ginas",
 	'pages:owner' => "P&aacute;ginas de %s",
 	'pages:friends' => "P&aacute;ginas de amigos",
@@ -36,6 +37,7 @@ $spanish = array(
 	/**
 	* River
 	**/
+
 	'river:create:object:page' => '%s ha creado la p&aacute;gina %s',
 	'river:create:object:page_top' => '%s ha creado una p&aacute;gina %s',
 	'river:update:object:page' => '%s ha actualizado la p&aacute;gina %s',
@@ -46,6 +48,7 @@ $spanish = array(
 	/**
 	 * Form fields
 	 */
+
 	'pages:title' => 'T&iacute;tulo de la p&aacute;gina',
 	'pages:description' => 'Texto de la p&aacute;gina',
 	'pages:tags' => 'Tags',
