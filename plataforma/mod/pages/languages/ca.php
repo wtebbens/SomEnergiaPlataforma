@@ -5,7 +5,7 @@
  * @package ElggPages
  */
 
-$english = array(
+$catalan = array(
 
     /**
      * Menu items and titles
