@@ -1,3 +1,7 @@
 plataforma/engine/settings.*
 data/*
 .project
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
