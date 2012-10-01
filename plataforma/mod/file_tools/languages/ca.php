@@ -1,160 +1,161 @@
 <?php 
 
 	$catalan = array(
-		'file_tools' => "File Tools",
+		'file_tools' => "Eines Fitxers",
 	
-		'file_tools:file:actions' => 'Actions',
+		'file_tools:file:actions' => 'Accions',
 	
-		'file_tools:list:sort:type' => 'Type',
-		'file_tools:list:sort:time_created' => 'Time created',
-		'file_tools:list:sort:asc' => 'Ascending',
-		'file_tools:list:sort:desc' => 'Descending',
+		'file_tools:list:sort:type' => 'Tipus',
+		'file_tools:list:sort:time_created' => 'Data creació',
+		'file_tools:list:sort:asc' => 'Ascendent',
+		'file_tools:list:sort:desc' => 'Descendent',
 	
 		// object name
-		'item:object:folder' => "File Folder",
+		'item:object:folder' => "Carpeta Fitxers",
 	
 		// menu items
-		'file_tools:menu:mine' => "Your folders",
-		'file_tools:menu:user' => "%s's folders",
-		'file_tools:menu:group' => "Group file folders",
+		'file_tools:menu:mine' => "Teves Carpetes",
+		'file_tools:menu:user' => "%s's carpetes",
+		'file_tools:menu:group' => "Grup de carpetes de fitxers",
 		
 		// group tool option
-		'file_tools:group_tool_option:structure_management' => "Allow management of folders by members",
+		'file_tools:group_tool_option:structure_management' => "Permetre administració de carpetes per membres",
 		
 		// views
 	
 		// object
-		'file_tools:object:files' => "%s file(s) in this folder",
-		'file_tools:object:no_files' => "No files in this folder",
+		'file_tools:object:files' => "%s fitxer(s) en aquesta carpeta",
+		'file_tools:object:no_files' => "Cap fitxer en aquesta carpeta",
 	
 		// input - folder select
-		'file_tools:input:folder_select:main' => "Main folder",
+		'file_tools:input:folder_select:main' => "Carpeta Principal",
 	
 		// list
-		'file_tools:list:title' => "List file folders",
+		'file_tools:list:title' => "Carpetes llista fitxers",
 		
-		'file_tools:list:folder:main' => "Main folder",
-		'file_tools:list:files:none' => "No files found in this folder",
-		'file_tools:list:select_all' => 'Select all',
-		'file_tools:list:deselect_all' => 'Deselect all',
-		'file_tools:list:download_selected' => 'Download selected',
-		'file_tools:list:delete_selected' => 'Delete selected',
-		'file_tools:list:alert:not_all_deleted' => 'Not all files could be deleted',
-		'file_tools:list:alert:none_selected' => 'No items selected',
+		'file_tools:list:folder:main' => "Carpeta Principal",
+		'file_tools:list:files:none' => "Cap fitxer en aquesta carpeta",
+		'file_tools:list:select_all' => 'Selecciona tot',
+		'file_tools:list:deselect_all' => 'Deselecciona tot',
+		'file_tools:list:download_selected' => 'Descarregar seleccionat',
+		'file_tools:list:delete_selected' => 'Esborra seleccionat',
+		'file_tools:list:alert:not_all_deleted' => 'No tots els fitxers poden ser esborrats',
+		'file_tools:list:alert:none_selected' => 'Cap element seleccionat',
 		
 	
-		'file_tools:list:tree:info' => "Did you know?",
-		'file_tools:list:tree:info:1' => "You can drag and drop files on to the folders to organize them!",
-		'file_tools:list:tree:info:2' => "You can double click on any folder to expand all of its subfolders!",
-		'file_tools:list:tree:info:3' => "You can reorder folders by dragging them to their new place in the tree!",
-		'file_tools:list:tree:info:4' => "You can move complete folder structures!",
-		'file_tools:list:tree:info:5' => "If you delete a folder, you can optionally choose to delete all files!",
-		'file_tools:list:tree:info:6' => "When you delete a folder, all subfolders will also be deleted!",
-		'file_tools:list:tree:info:7' => "This message is random!",
-		'file_tools:list:tree:info:8' => "When you remove a folder, but not it's files, the files will appear at the top level folder!",
-		'file_tools:list:tree:info:9' => "A newly added folder can be placed directly in the correct subfolder!",
-		'file_tools:list:tree:info:10' => "When uploading or editing a file you can choose in which folder it should appear!",
-		'file_tools:list:tree:info:11' => "Dragging of files is only available in the list view, not in the gallery view!",
-		'file_tools:list:tree:info:12' => "You can update the access level on all subfolders and even (optional) on all files when editing a folder!",
+		'file_tools:list:tree:info' => "Sabies que?",
+		'file_tools:list:tree:info:1' => "Pots arrossegar i deixar anar els fitxers a les carpetes per organitzar-les!",
+		'file_tools:list:tree:info:2' => "Pots fer doble click sobre qualsevol carpeta per expandir totes les seves sub-carpetes!",
+		'file_tools:list:tree:info:3' => "Pots reordenar carpetes arrossegant-les al seu nou lloc en el arbre!",
+		'file_tools:list:tree:info:4' => "Pots moure estructures completes de carpetes!",
+		'file_tools:list:tree:info:5' => "Si esborres una carpeta, pots escollir opcionalment esborrar tots els seus fitxers!",
+		'file_tools:list:tree:info:6' => "Quan esborres una carpeta, totes les subcarpetes seran esborrades!",
+		'file_tools:list:tree:info:7' => "Aquest missatge és aleatori!",
+		'file_tools:list:tree:info:8' => "Quan esborres una carpeta, però els seus fitxers, els fitxers
+apareixeran a la carpeta de nivel superior!",
+		'file_tools:list:tree:info:9' => "Una carpeta recentment afegida pot ser posada directament a la correcta subcarpeta!",
+		'file_tools:list:tree:info:10' => "Quan puges o edites un fitxer pots escollir en quina carpeta hauria d'aparèixer!",
+		'file_tools:list:tree:info:11' => "Arrossegar fitxers és únicament disponible a la vista de llista, no a la  vista de galeria!",
+		'file_tools:list:tree:info:12' => "Pots actualitzar el nivell d'acces a totes les carpetes i fins i tot (opcional) de tots els fitxers durant l'edició d'una carpeta!",
 	
-		'file_tools:list:files:options:sort_title' => 'Sorting',
-		'file_tools:list:files:options:view_title' => 'View',
+		'file_tools:list:files:options:sort_title' => 'Ordenació',
+		'file_tools:list:files:options:view_title' => 'Vista',
 	
-		'file_tools:usersettings:time' => 'Time display',
-		'file_tools:usersettings:time:description' => 'Change the way the file/folder time is displayed ',
-		'file_tools:usersettings:time:default' => 'Default time display',
-		'file_tools:usersettings:time:date' => 'Date',
-		'file_tools:usersettings:time:days' => 'Days ago',
+		'file_tools:usersettings:time' => 'Visualització Hora',
+		'file_tools:usersettings:time:description' => 'Canviar com es mostra la data de fitxer/carpeta ',
+		'file_tools:usersettings:time:default' => 'Visualització hora per defecte',
+		'file_tools:usersettings:time:date' => 'Data',
+		'file_tools:usersettings:time:days' => 'Dies enrere',
 		
 		// new/edit
-		'file_tools:new:title' => "New file folder",
-		'file_tools:edit:title' => "Edit file folder",
-		'file_tools:forms:edit:title' => "Title",
-		'file_tools:forms:edit:description' => "Description",
-		'file_tools:forms:edit:parent' => "Select a parent folder",
-		'file_tools:forms:edit:change_children_access' => "Update access on all subfolders",
-		'file_tools:forms:edit:change_files_access' => "Update access on all files in this folder (and all subfolders if selected)",
-		'file_tools:forms:browse' => 'Browse..',
-		'file_tools:forms:empty_queue' => 'Empty queue',
+		'file_tools:new:title' => "Nova carpeta fitxers",
+		'file_tools:edit:title' => "Editar carpeta fitxers",
+		'file_tools:forms:edit:title' => "Títol",
+		'file_tools:forms:edit:description' => "Descripció",
+		'file_tools:forms:edit:parent' => "Seleccionar una carpeta pare",
+		'file_tools:forms:edit:change_children_access' => "Actualitzar accés de totes les subcarpetes",
+		'file_tools:forms:edit:change_files_access' => "Actualitzar acces de tots els fitxers en aquesta carpeta (i totes les seves subcarpetes si es selecciona)",
+		'file_tools:forms:browse' => 'Navegar..',
+		'file_tools:forms:empty_queue' => 'Cua buida',
 	
-		'file_tools:folder:delete:confirm_files' => "Do you also wish to delete all files in the removed (sub)folders",
+		'file_tools:folder:delete:confirm_files' => "Vols també eliminar tots els arxius en les (sub)carpetes a esborrar",
 	
 		// actions
 		// edit
-		'file_tools:action:edit:error:input' => "Incorrect input to create/edit a file folder",
-		'file_tools:action:edit:error:owner' => "Could not find the owner of the file folder",
-		'file_tools:action:edit:error:folder' => "No folder to create/edit",
-		'file_tools:action:edit:error:save' => "Unknown error occured while saving the file folder",
-		'file_tools:action:edit:success' => "File folder successfully created/edited",
+		'file_tools:action:edit:error:input' => "Entrada incorrecte al crear/editar una carpeta",
+		'file_tools:action:edit:error:owner' => "No es pot trobar el propietari de la carpeta",
+		'file_tools:action:edit:error:folder' => "Cap carpeta a crear/editar",
+		'file_tools:action:edit:error:save' => "Error desconegut al guardar la carpeta",
+		'file_tools:action:edit:success' => "Carpeta creada/editada satisfactòriament",
 	
-		'file_tools:action:move:parent_error' => "Can\'t drop the folder in itself.",
+		'file_tools:action:move:parent_error' => "No es pot arrosseguar carpeta en si mateixa.",
 		
 		// delete
-		'file_tools:actions:delete:error:input' => "Invalid input to delete a file folder",
-		'file_tools:actions:delete:error:entity' => "The given GUID could not be found",
-		'file_tools:actions:delete:error:subtype' => "The given GUID is not a file folder",
-		'file_tools:actions:delete:error:delete' => "An unknown error occured while deleting the file folder",
-		'file_tools:actions:delete:success' => "The file folder was deleted successfully",
+		'file_tools:actions:delete:error:input' => "Entrada incorrecte al esborrar una carpeta",
+		'file_tools:actions:delete:error:entity' => "El GUID no pot ser trobat",
+		'file_tools:actions:delete:error:subtype' => "El GUID no és una carpeta",
+		'file_tools:actions:delete:error:delete' => "Error desconegut al eliminar la carpeta",
+		'file_tools:actions:delete:success' => "La carpeta s'ha esborrat satisfactòriament",
 	
-		'file_tools:upload:new' => 'Upload zip file',
-		'file_tools:upload:form:choose' => 'Choose file',
-		'file_tools:upload:form:info' => 'Click browse to upload (multiple) files',
-		'file_tools:upload:form:zip:info' => "You can upload a zip file. It will be extracted and each file will be separately imported. Also if you have folders in your zip they will be imported into each specific folder. File types that are not allowed will be skipped.",
+		'file_tools:upload:new' => 'Pujar fitxer zip',
+		'file_tools:upload:form:choose' => 'Escollir fitxer',
+		'file_tools:upload:form:info' => 'Clicar navegar per pujar (multiple) fitxers',
+		'file_tools:upload:form:zip:info' => "Pots pujar un fitxer zip. S'extreurà i cada un dels fitxers  seran importats separadament. També si tens carpetes en el teu zip s'importaran en la corresponent carpeta. Tipus de fitxers que no estan permesos seran omesos.",
 	
 		//errors
-		'file_tools:error:pageowner' => 'Error retrieving page owner.',
-		'file_tools:error:nofilesextracted' => 'There were no allowed files found to extract.',
-		'file_tools:error:cantopenfile' => 'Zip file couldn\'t be opened (check if the uploaded file is a .zip file).',
-		'file_tools:error:nozipfilefound' => 'Uploaded file is not a .zip file.',
-		'file_tools:error:nofilefound' => 'Choose a file to upload.',
+		'file_tools:error:pageowner' => 'Error recuperant propietari pàgina.',
+		'file_tools:error:nofilesextracted' => 'No s\'ha trobat fitxers per extreure.',
+		'file_tools:error:cantopenfile' => 'Fitxer Zip no pot ser obert (revisa si el fitxer pujat és un fitxar .zip).',
+		'file_tools:error:nozipfilefound' => 'Fitxer pujat no és un fitxer .zip.',
+		'file_tools:error:nofilefound' => 'Escull un fitxer a pujar.',
 	
 		//messages
-		'file_tools:error:fileuploadsuccess' => 'Zip file uploaded and extracted successfully.',
+		'file_tools:error:fileuploadsuccess' => 'Fitxer Zip pujat i extret satisfactòriament.',
 		
 		// move
-		'file_tools:action:move:success:file' => "The file was moved successfully",
-		'file_tools:action:move:success:folder' => "The folder was moved successfully",
+		'file_tools:action:move:success:file' => "El fitxer s'ha mogut satisfatòriament",
+		'file_tools:action:move:success:folder' => "La carpeta s'ha mogut satisfatòriament",
 		
 		// buld delete
-		'file_tools:action:bulk_delete:success:files' => "Successfully removed %s files",
-		'file_tools:action:bulk_delete:error:files' => "There was an error while removing some files",
-		'file_tools:action:bulk_delete:success:folders' => "Successfully removed %s folders",
-		'file_tools:action:bulk_delete:error:folders' => "There was an error while removing some folders",
+		'file_tools:action:bulk_delete:success:files' => "Esborrats %s fitxers satisfatòriament",
+		'file_tools:action:bulk_delete:error:files' => "Hi ha hagut un error en l'esborrat d'alguns fitxers",
+		'file_tools:action:bulk_delete:success:folders' => "Esborrades %s carpetes satisfatòriament",
+		'file_tools:action:bulk_delete:error:folders' => "Hi ha hagut un error en l'esborrat d'algunes carpetes",
 		
 		// reorder
-		'file_tools:action:folder:reorder:success' => "Successfully reordered the folder(s)",
+		'file_tools:action:folder:reorder:success' => "Reordenat la(les) carpetes satisfatòriament",
 		
 		//settings
-		'file_tools:settings:allowed_extensions' => 'Allowed extensions (comma seperated)',
-		'file_tools:settings:user_folder_structure' => 'Use folder structure',
-		'file_tools:settings:sort:default' => 'Default folder sorting options',
+		'file_tools:settings:allowed_extensions' => 'Extensions permeses (separades per comes)',
+		'file_tools:settings:user_folder_structure' => 'Usar estructura carpetes',
+		'file_tools:settings:sort:default' => 'Opcions ordenació carpetes per defecte',
 	
-		'file:type:application' => 'Application',
+		'file:type:application' => 'Applicació',
 		'file:type:text' => 'Text',
 
 		// widgets
 		// file tree
-		'widgets:file_tree:title' => "Folders",
-		'widgets:file_tree:description' => "Showcase your File folders",
+		'widgets:file_tree:title' => "Carpetes",
+		'widgets:file_tree:description' => "Mostrar les teves carpetes",
 		
-		'widgets:file_tree:edit:select' => "Select which folder(s) to display",
-		'widgets:file_tree:edit:show_content' => "Show the content of the folder(s)",
-		'widgets:file_tree:no_folders' => "No folders configured",
-		'widgets:file_tree:no_files' => "No files configured",
-		'widgets:file_tree:more' => "More file folders",
+		'widgets:file_tree:edit:select' => "Seleccionar quina(es) carpeta(es) mostrar",
+		'widgets:file_tree:edit:show_content' => "Mostrar el contingut de la(les) carpeta(es)",
+		'widgets:file_tree:no_folders' => "Cap carpeta configurada",
+		'widgets:file_tree:no_files' => "Cap fitxer configurat",
+		'widgets:file_tree:more' => "Més carpetes",
 	
-		'widget:file:edit:show_only_featured' => 'Show only featured files',
+		'widget:file:edit:show_only_featured' => 'Mostrar només els fitxers que apareixen',
 		
 		'widget:file_tools:show_file' => 'Feature file (widget)',
 		'widget:file_tools:hide_file' => 'Unfeature file',
 	
-		'widgets:file_tools:more_files' => 'More files',
+		'widgets:file_tools:more_files' => 'Més fitxers',
 		
 		// Group files
-		'widgets:group_files:description' => "Show the latest group files",
+		'widgets:group_files:description' => "Mostrar els últims grups fitxers",
 		
 		// index_file
-		'widgets:index_file:description' => "Show the latest files on your community",
+		'widgets:index_file:description' => "Mostrar els últims fitxers de la comunitat",
 	
 	);
 	
