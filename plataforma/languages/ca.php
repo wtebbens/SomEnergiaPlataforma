@@ -412,7 +412,7 @@ $catalan = array(
 	
 	
 	
-	/**
+/**
 	* Feeds
 	*/
 	'feed:rss' => 'Canal RSS per aquesta p&agrave;gina',
@@ -420,7 +420,7 @@ $catalan = array(
 
 
 
-	/**
+/**
 	* Links
 	*/
 	'link:view' => 'Veure enllaç',

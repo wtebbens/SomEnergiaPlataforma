@@ -38,7 +38,6 @@ o ver el perfil de %2$s aqu&iacute;:
 Gracias,
 %4$s
 ',
-
 );
 
 add_translation('es', $spanish);

@@ -21,7 +21,7 @@ $conf['updatecheck'] = 0;                //automatically check for new releases?
 // get language from elgg directly
 $conf['lang']        = get_current_language();
 
-$conf['superuser']   = '@root';
+$conf['superuser']   = '@admin';
 
 $conf['license']     = 'cc-by-sa';     //see conf/license.php
 
